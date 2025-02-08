@@ -27,15 +27,19 @@
         </div>
     </div>
 
-
-
     <!-- Map -->
     <div id="map-container">
         <div id="map"></div>
         <div id="info-box" class="info-box">Click on a road to see its ID</div>
+        <!-- Legend Container -->
+    </div>
+
+    <div class="legend" id="legend">
+        <h4>Bike Lane Types</h4>
     </div>
 
     <script src="https://unpkg.com/maplibre-gl@^3.0.0/dist/maplibre-gl.js"></script>
     <script src="index.js"></script>
+    <script src="bike-network.js"></script> <!-- Separate script for bike network -->
 </body>
 </html>

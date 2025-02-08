@@ -1,3 +1,5 @@
+
+
 const map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/positron',
@@ -10,6 +12,7 @@ const nameLayers = ["highway-name-minor", "highway-name-major"];
 const infoBox = document.getElementById("info-box");
 
 map.on('load', () => {
+    console.log("Map loaded successfully!");
     map.addSource("highlighted-road", {
         type: "geojson",
         data: { type: "FeatureCollection", features: [] }
@@ -155,3 +158,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+

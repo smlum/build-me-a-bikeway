@@ -1,11 +1,19 @@
+/* Global styles */
 body,
 html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
+    flex-direction: row;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* Ensures sidebar + map are side by side */
+    overflow: hidden;
+    /* Stops unwanted scrolling */
 }
+
+
 
 /* Sidebar */
 .sidebar {
@@ -15,33 +23,30 @@ html {
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
-    font-family: Arial, sans-serif;
-}
-
-.sidebar h1 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.sidebar p {
     font-size: 14px;
-    line-height: 1.5;
-    color: #333;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
 }
 
-.sidebar strong {
-    font-weight: bold;
-}
-
-/* Map container */
+/* Map container - fills remaining space */
 #map-container {
-    flex: 1;
+    flex-grow: 1;
+    height: 100vh;
+    width: 100%;
     position: relative;
 }
 
+/* Map - ensure it's visible */
 #map {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e0e0e0;
+    /* Light gray background to debug visibility */
+    z-index: 5;
 }
 
 /* Info Box */
@@ -49,18 +54,51 @@ html {
     position: absolute;
     bottom: 20px;
     left: 320px;
-    /* Push away from sidebar */
     background: white;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: none;
-    font-size: 14px;
+    z-index: 10;
 }
 
+/* Legend styles */
+.legend {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    background: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 220px;
+    z-index: 10;
+}
 
+/* Legend title */
+.legend h4 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
 
-/* Button styling */
+/* Legend items */
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Legend color boxes */
+.legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+/* Dropdown button for How It Works */
 .dropdown-btn {
     width: 100%;
     padding: 10px;
@@ -69,7 +107,6 @@ html {
     text-align: left;
     font-size: 16px;
     cursor: pointer;
-    outline: none;
     transition: background 0.3s;
 }
 
@@ -77,7 +114,7 @@ html {
     background: #d6d8db;
 }
 
-/* Collapsible content (Smooth expand/collapse effect) */
+/* Collapsible content */
 .dropdown-content {
     max-height: 0;
     overflow: hidden;
@@ -88,9 +125,8 @@ html {
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 }
 
-/* Expanded state */
+/* Expanded dropdown */
 .dropdown-content.show {
     max-height: 500px;
-    /* Large enough for full expansion */
     padding: 10px;
 }
