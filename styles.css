@@ -1,0 +1,96 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.sidebar strong {
+    font-weight: bold;
+}
+
+/* Map container */
+#map-container {
+    flex: 1;
+    position: relative;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* Info Box */
+.info-box {
+    position: absolute;
+    bottom: 20px;
+    left: 320px;
+    /* Push away from sidebar */
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    font-size: 14px;
+}
+
+
+
+/* Button styling */
+.dropdown-btn {
+    width: 100%;
+    padding: 10px;
+    background: #e9ecef;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.dropdown-btn:hover {
+    background: #d6d8db;
+}
+
+/* Collapsible content (Smooth expand/collapse effect) */
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    font-size: 14px;
+    background: #f8f9fa;
+    border-left: 3px solid #ddd;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+/* Expanded state */
+.dropdown-content.show {
+    max-height: 500px;
+    /* Large enough for full expansion */
+    padding: 10px;
+}
