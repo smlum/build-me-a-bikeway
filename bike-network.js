@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const bikeNetworkURL = "bikenetwork.geojson"; // Your local file or hosted URL
+    const bikeNetworkURL = "data/bikenetwork.geojson"; // Your local file or hosted URL
 
     const colorMap = {
         'Bike Path': "#035D29", // Green
