@@ -111,36 +111,38 @@ function findRoadName(road, e) {
     return "Unknown Road";
 }
 
-map.on('click', (e) => {
-    try {
-        const features = map.queryRenderedFeatures(e.point, { layers: roadLayers });
 
-        if (features.length > 0) {
-            const road = features[0];
-            console.log("Clicked Road Feature:", road);
+// map.on('click', (e) => {
+//     try {
+//         const features = map.queryRenderedFeatures(e.point, { layers: roadLayers });
+//         if (features.length > 0) {
 
-            const roadName = findRoadName(road, e);
-            console.log("Detected Road Name:", roadName);
+//             const road = features[0];
+//             console.log("Clicked Road Feature:", road);
 
-            const closestSegmentFeature = findClosestSegment(road, e.lngLat);
+//             const roadName = findRoadName(road, e);
+//             console.log("Detected Road Name:", roadName);
 
-            if (!closestSegmentFeature) {
-                console.warn("No valid road segment found for highlighting.");
-                return;
-            }
+//             const closestSegmentFeature = findClosestSegment(road, e.lngLat);
 
-            infoBox.innerHTML = `<strong>Road Name:</strong> ${roadName} <br> <strong>Type:</strong> ${road.properties.class || "Unknown"}`;
-            infoBox.style.display = "block";
+//             if (!closestSegmentFeature) {
+//                 console.warn("No valid road segment found for highlighting.");
+//                 return;
+//             }
 
-            map.getSource("highlighted-road").setData({
-                type: "FeatureCollection",
-                features: [closestSegmentFeature]
-            });
-        }
-    } catch (err) {
-        console.error("Error in click event:", err);
-    }
-});
+//             infoBox.innerHTML = `<strong>Road Name:</strong> ${roadName} <br> <strong>Type:</strong> ${road.properties.class || "Unknown"}`;
+//             infoBox.style.display = "block";
+
+//             map.getSource("highlighted-road").setData({
+//                 type: "FeatureCollection",
+//                 features: [closestSegmentFeature]
+//             });
+//         }
+//     } catch (err) {
+//         console.error("Error in click event:", err);
+//     }
+// });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const dropdownBtn = document.querySelector(".dropdown-btn");

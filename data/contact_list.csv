@@ -1,274 +1,49 @@
-"Prénom","Nom","Genre","Rôles","Responsabilités","Arrondissement","Nom du district","Nom du parti","Adresse ligne 1 (Hôtel de Ville)","Adresse ligne 2 (Hôtel de Ville)","Localité (Hôtel de Ville)","Province (Hôtel de Ville)","Code postal (Hôtel de Ville)","Adresse ligne 1 (Arrondissement)","Adresse ligne 2 (Arrondissement)","Localité (Arrondissement)","Province (Arrondissement)","Code postal (Arrondissement)","Téléphone (Arrondissement)","Téléphone (Hôtel de Ville)","Télécopieur","Courriel","URL d'une photo","URL source","Poste"
-"Effie","Giannou","Madame","Conseiller(ère) de la Ville;
-Vice-présidente du conseil",,"Ahuntsic-Cartierville","Bordeaux-Cartierville","Ensemble Montréal",,,,,,"555, rue Chabanel Ouest","6e étage","Montréal","Québec","H2N 2H8","514-872-2246",,"514-868-3324","effie.giannou@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/mo9r4d6tbgfsbn956cyt.jpg","https://montreal.ca/elus/effie-giannou-1107","1,40"
-"Nathalie","Goulet","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission permanente de la présidence du conseil;
-Membre de la Commission sur l'examen des contrats;
-Membre de la Commission sur les finances et l'administration
-Membre du Comité de vérification",,"Ahuntsic-Cartierville","Ahuntsic","Projet Montréal - Équipe Valérie Plante",,,,,,"555, rue Chabanel Ouest","6e étage","Montréal","Québec","H2N 2H8","514-872-2246",,"514-868-3324","nathalie.goulet@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/bfqtqfis8qme4yhjf0z1.jpg","https://montreal.ca/elus/nathalie-goulet-1159","1,30"
-"Jérôme","Normand","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs;
-Président de la Commission sur l'inspecteur général;",,"Ahuntsic-Cartierville","Sault-au-Récollet","Projet Montréal - Équipe Valérie Plante",,,,,,"555, rue Chabanel Ouest","6e étage","Montréal","Québec","H2N 2H8","514-872-2246",,"514-868-3324","jerome.normand@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/bvxwv546hnzk0eehbslr.jpg","https://montreal.ca/elus/jerome-normand-1123","1,10"
-"Julie","Roy","Madame","Conseiller(ère) de la Ville;
-Présidente de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs;",,"Ahuntsic-Cartierville","Saint-Sulpice","Projet Montréal - Équipe Valérie Plante",,,,,,"555, rue Chabanel Ouest","6e étage","Montréal","Québec","H2N 2H8","514-872-2246",,"514-868-3324","julie.roy4@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/iouzfgl313i5dagivgwb.jpg","https://montreal.ca/elus/julie-roy-22235","1,20"
-"Émilie","Thuillier","Madame","Maire(sse) d'arrondissement;
-Membre du comité exécutif;
-Membre du conseil d'agglomération;","Responsable des infrastructures, des immeubles et du maintien des actifs","Ahuntsic-Cartierville",,"Projet Montréal - Équipe Valérie Plante",,,,,,"555, rue Chabanel Ouest","6e étage","Montréal","Québec","H2N 2H8","514-872-2246",,"514-868-3324","emilie.thuilier@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/bnmljdlvk7udqqi78tx4.jpg","https://montreal.ca/elus/emilie-thuillier-1108","1,00"
-"Marie-Josée","Dubé","Madame","Conseiller(ère) d'arrondissement;
-",,"Anjou","Ouest","Équipe Anjou",,,,,,"7701, boulevard Louis-H.-La Fontaine",,"Montréal","Québec","H1K 4B9","514-493-8019",,"514-493-8013","mariejosee.dube@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/hee94en3smfg1u6gykm2.jpg","https://montreal.ca/elus/marie-josee-dube-22236","2,10"
-"Andrée","Hénault","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission permanente de la présidence du conseil;",,"Anjou",,"Équipe Anjou",,,,,,"7701, boulevard Louis-H.-La Fontaine",,"Montréal","Québec","H1K 4B9","514-493-8051",,"514-493-8013","andree.henault@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/r9jioeufp8zjobad0qyz.jpg","https://montreal.ca/elus/andree-henault-1091","2,01"
-"Richard","Leblanc","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Anjou","Est","Équipe Anjou",,,,,,"7701, boulevard Louis-H.-La Fontaine",,"Montréal","Québec","H1K 4B9","514-493-8017",,"514-493-8013","richard.leblanc@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/hkecxkg2rr5hacmuwilo.jpg","https://montreal.ca/elus/richard-leblanc-1169","2,20"
-"Kristine","Marsolais","Madame","Conseiller(ère) d'arrondissement;
-",,"Anjou","Centre","Équipe Anjou",,,,,,"7701, boulevard Louis-H.-La Fontaine",,"Montréal","Québec","H1K 4B9","514-493-8085",,"514-493-8013","kristine.marsolais@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/wyo9rim7fnemzbvu8ili.jpg","https://montreal.ca/elus/kristine-marsolais-1129","2,30"
-"Luis","Miranda","Monsieur","Maire(sse) d'arrondissement;
-",,"Anjou",,"Équipe Anjou",,,,,,"7701, boulevard Louis-H.-La Fontaine",,"Montréal","Québec","H1K 4B9","514-493-8010",,"514-493-8013","luis.miranda@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/nnlj1k7mkjerc7hqis1m.jpg","https://montreal.ca/elus/luis-miranda-1139","2,00"
-"Gracia Kasoki","Katahwa","Madame","Maire(sse) d'arrondissement;
+Prenom,Nom,Genre,Roles,Arrondissement,phone,Courriel,URL source,Poste
+Luis,Miranda,Monsieur,"Maire(sse) d'arrondissement;
+",Anjou,514-493-8013,luis.miranda@montreal.ca,https://montreal.ca/elus/luis-miranda-1139,"2,00"
+Gracia Kasoki,Katahwa,Madame,"Maire(sse) d'arrondissement;
 Leader adjointe de la majorité;
-Membre de la Commission de la sécurité publique",,"Côte-des-Neiges–Notre-Dame-de-Grâce",,"Projet Montréal - Équipe Valérie Plante",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9",,,"514-868-3327","graciakasoki.katahwa@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/xkbl1x2fmcwbtlwjiau6.jpg","https://montreal.ca/elus/gracia-kasoki-katahwa-22620","3,00"
-"Peter","McQueen","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission permanente de la présidence du conseil;
-Membre de la Commission sur le transport et les travaux publics",,"Côte-des-Neiges–Notre-Dame-de-Grâce","Notre-Dame-de-Grâce","Projet Montréal - Équipe Valérie Plante",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9","514-868-4281",,"514-868-3327","peter.mcqueen@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/qqtc03vernw9et0h6bpj.jpg","https://montreal.ca/elus/peter-mcqueen-1162","3,40"
-"Sonny","Moroz","Monsieur","Conseiller(ère) de la Ville;
-Vice-président de la Commission permanente de la présidence du conseil",,"Côte-des-Neiges–Notre-Dame-de-Grâce","Snowdon","Ensemble Montréal",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9",,,"514-868-3327","sonny.moroz@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/kdny39o7bcsfu2y8y8pl.jpg","https://montreal.ca/elus/sonny-moroz-22279","3,30"
-"Magda","Popeanu","Madame","Conseiller(ère) de la Ville;
-Membre du comité exécutif;
-Membre du conseil d'agglomération;
-Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal","Responsable de la performance organisationnelle","Côte-des-Neiges–Notre-Dame-de-Grâce","Côte-des-Neiges","Projet Montréal - Équipe Valérie Plante",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9","514-855-2273",,"514-868-3327","magda.popeanu@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ljzoh01woyg2xq7tjuq4.jpg","https://montreal.ca/elus/magda-popeanu-1142","3,20"
-"Despina","Sourias","Madame","Conseiller(ère) de la Ville;
-Conseillère associée;
-Membre de la Commission permanente de la présidence du conseil","Conseillère associée à la condition féminine, à la diversité, à la jeunesse et aux personnes aînées","Côte-des-Neiges–Notre-Dame-de-Grâce","Loyola","Projet Montréal - Équipe Valérie Plante",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9",,,"514-868-3327","despina.sourias@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ohvgz9uqhst40sczcspi.jpg","https://montreal.ca/elus/despina-sourias-22512","3,50"
-"Stephanie","Valenzuela","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur l'examen des contrats",,"Côte-des-Neiges–Notre-Dame-de-Grâce","Darlington","Ensemble Montréal",,,,,,"5160, boulevard Décarie","Bureau 710","Montréal","Québec","H3X 2H9",,,"514-868-3327","stephanie.valenzuela@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/moogpulprsbxfbwx9j6k.jpg","https://montreal.ca/elus/stephanie-valenzuela-22238","3,10"
-"Richard","Bélanger","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Ile-Bizard - Sainte-Geneviève","Jacques-Bizard","Ensemble Montréal",,,,,,"350, montée de l'Église",,"Montréal","Québec","H9C 1G9",,,"514-620-8198","richard.belanger@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ymha4eh4w9arbdph20f0.jpg","https://montreal.ca/elus/richard-belanger-22232","6,30"
-"Stéphane","Côté","Monsieur","Maire(sse) d'arrondissement;
-Vice-président de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs",,"Ile-Bizard - Sainte-Geneviève",,"Ensemble Montréal",,,,,,"350, montée de l'Église",,"Montréal","Québec","H9C 1G9",,,"514-620-8198","stephane.cote2@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/i0yzriqq4rd3zzps7spv.jpg","https://montreal.ca/elus/stephane-cote-22234","6,00"
-"Suzanne","Marceau","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'inspecteur général",,"Ile-Bizard - Sainte-Geneviève","Sainte-Geneviève","Ensemble Montréal",,,,,,"350, montée de l'Église",,"Montréal","Québec","H9C 1G9","514-620-6448",,"514-620-8198","suzanne.marceau@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/s1erapj779odgaukruyh.jpg","https://montreal.ca/elus/suzanne-marceau-1181","6,40"
-"Danielle","Myrand","Madame","Conseiller(ère) d'arrondissement;
-",,"Ile-Bizard - Sainte-Geneviève","Pierre-Foretier","Ensemble Montréal",,,,,,"350, montée de l'Église",,"Montréal","Québec","H9C 1G9",,,"514-620-8198","danielle.myrand@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/cr8wnslxuucxedftcomm.jpg","https://montreal.ca/elus/danielle-myrand-22233","6,10"
-"Alain","Wilson","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Ile-Bizard - Sainte-Geneviève","Denis-Benjamin-Viger","Ensemble Montréal",,,,,,"350, montée de l'Église",,"Montréal","Québec","H9C 1G9",,,"514-620-8198","alain.wilson@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/b9hrjtm0irqaonpge0fu.jpg","https://montreal.ca/elus/alain-wilson-22230","6,20"
-"Younes","Boukala","Monsieur","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur le transport et les travaux publics;
-Membre de la Commission de la sécurité publique",,"Lachine","J.-Émery-Provost","Projet Montréal - Équipe Valérie Plante",,,,,,"1800, boulevard Saint-Joseph",,"Montréal","Québec","H8S 2N4","514-634-3471 poste 280",,"514-634-8164","younes.boukala@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/n4wnsexgjxcmzalgch6o.jpg","https://montreal.ca/elus/younes-boukala-1187","4,20"
-"Michèle","Flannery","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur le développement économique et urbain et l'habitation;
-Membre de la Commission sur le développement social et la diversité montréalaise",,"Lachine","Fort-Rolland","Projet Montréal - Équipe Valérie Plante",,,,,,"1800, boulevard Saint-Joseph",,"Montréal","Québec","H8S 2N4","514-634-3471",,"514-634-8164","michele.flannery@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/xj4sagjzifixdzejrumg.jpg","https://montreal.ca/elus/michele-flannery-1153","4,30"
-"Vicki","Grondin","Madame","Conseiller(ère) de la Ville;
-Conseillère désignée pour siéger au conseil d'arrondissement de Ville-Marie;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs;
-Membre de la Commission sur les finances et l'administration;
-Membre de la Commission sur l'inspecteur général;",,"Lachine",,"Projet Montréal - Équipe Valérie Plante",,,,,,"1800, boulevard Saint-Joseph",,"Montréal","Québec","H8S 2N4",,,"514-634-8164","vicki.grondin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/tlxjmgzbaoe04di6sqs8.jpg","https://montreal.ca/elus/vicki-grondin-22239","4,01"
-"Micheline","Rouleau","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'examen des contrats",,"Lachine","du Canal","Projet Montréal - Équipe Valérie Plante",,,,,,"1800, boulevard Saint-Joseph",,"Montréal","Québec","H8S 2N4","514-634-3471 poste 823",,"514-634-8164","micheline.rouleau@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ofcx8zbnrijldxsbktbk.jpg","https://montreal.ca/elus/micheline-rouleau-1155","4,10"
-"Maja","Vodanovic","Madame","Maire(sse) d'arrondissement;
-Membre du comité exécutif;
-Membre du conseil d'agglomération;","Responsable de la concertation avec les arrondissements et de l'eau","Lachine",,"Projet Montréal - Équipe Valérie Plante",,,,,,"1800, boulevard Saint-Joseph",,"Montréal","Québec","H8S 2N4","514-634-3471 poste 501",,"514-780-7700","maja.vodanovic@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/akxi7sw8pcyartbjgrfa.jpg","https://montreal.ca/elus/maja-vodanovic-1143","4,00"
-"Benoit","Auger","Monsieur","Conseiller(ère) d'arrondissement;
-",,"LaSalle","Sault-Saint-Louis","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","benoit.auger@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ngn2qcatdvxasuyphwr3.jpg","https://montreal.ca/elus/benoit-auger-22243","5,12"
-"Nancy","Blanchet","Madame","Maire(sse) d'arrondissement;
-Présidente d'assemblée et membre du conseil d'agglomération;
-Membre de la Commission sur le développement social et la diversité montréalaise;",,"LaSalle",,"Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","nancy.blanchet@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/j3udpnm8qly6uf60kubg.jpg","https://montreal.ca/elus/nancy-blanchet-1157","5,00"
-"Richard","Deschamps","Monsieur","Conseiller(ère) de la Ville;
-",,"LaSalle","Sault-Saint-Louis","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","richard.deschamps@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jd7aizcxpvjv7r7lgkyb.jpg","https://montreal.ca/elus/richard-deschamps-1167","5,10"
-"Michel","Noël","Monsieur","Conseiller(ère) d'arrondissement;
-",,"LaSalle","Cecil-P.-Newman","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","michel.noel@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/th4yekkjejadrab9gbf7.jpg","https://montreal.ca/elus/michel-noel-22241","5,21"
-"Laura","Palestini","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur le transport et les travaux publics",,"LaSalle","Cecil-P.-Newman","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","laura-ann.palestini@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/devgtmuvihppfkqcmbku.jpg","https://montreal.ca/elus/laura-palestini-1130","5,20"
-"Daniela","Romano","Madame","Conseiller(ère) d'arrondissement;
-",,"LaSalle","Sault-Saint-Louis","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","daniela.romano@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/x9exygowtspj6yg8mkog.jpg","https://montreal.ca/elus/daniela-romano-22242","5,11"
-"Josée","Troilo","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur le développement économique et urbain et l'habitation",,"LaSalle","Cecil-P.-Newman","Équipe LaSalle Team",,,,,,"55, avenue Dupras",,"Montréal","Québec","H8R 4A8","514-367-6000 poste 6206",,"514-367-6600","josee.troilo@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/t0zqumb5nnd3fkhysdge.jpg","https://montreal.ca/elus/josee-troilo-1125","5,22"
-"Éric Alan","Caldwell","Monsieur","Conseiller(ère) de la Ville;
-Membre du comité exécutif","Société de transport de Montréal","Mercier–Hochelaga-Maisonneuve","Hochelaga","Projet Montréal - Équipe Valérie Plante",,,,,,"6854, rue Sherborooke Est",,"Montréal","Québec","H1N 1E1","514-872-9899",,"514-868-4551","ericalan.caldwell@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/iomhtyy61ql9ribkkgcy.jpg","https://montreal.ca/elus/eric-alan-caldwell-1109","7,30"
-"Alia","Hassan-Cournol","Madame","Conseiller(ère) de la Ville;
-Conseillère associée;
-Conseillère désignée pour siéger au conseil d'arrondissement de Ville-Marie","Conseillère associée à la mairesse et à la réconciliation avec les peuples autochtones","Mercier–Hochelaga-Maisonneuve","Maisonneuve–Longue-Pointe","Projet Montréal - Équipe Valérie Plante",,,,,,"6854, rue Sherborooke Est",,"Montréal","Québec","H1N 1E1",,,"514-868-4551","alia.hassan-cournol@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/gwlevnwvjmuhcmqjalhc.jpg","https://montreal.ca/elus/alia-hassan-cournol-22250","7,20"
-"Julien","Hénault-Ratelle","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission sur le développement économique et urbain et l'habitation",,"Mercier–Hochelaga-Maisonneuve","Tétreaultville","Ensemble Montréal",,,,,,"6854, rue Sherborooke Est",,"Montréal","Québec","H1N 1E1",,,"514-868-4551","julien.henault-ratelle@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ohpebebll98r4glqkxxn.jpg","https://montreal.ca/elus/julien-henault-ratelle-22630","7,10"
-"Pierre","Lessard-Blais","Monsieur","Maire(sse) d'arrondissement;
-Membre du conseil d'agglomération;
-Président de la Commission sur les finances et l'administration;
-Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",,"Mercier–Hochelaga-Maisonneuve",,"Projet Montréal - Équipe Valérie Plante",,,,,,"6854, rue Sherborooke Est",,"Montréal","Québec","H1N 1E1","514-872-8759",,"514-868-4551","pierre.lessard-blais@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ta23uba2vimhlzyolx1t.jpg","https://montreal.ca/elus/pierre-lessard-blais-1164","7,00"
-"Alba","Zuniga Ramos","Madame","Conseiller(ère) de la Ville;
-Leader adjointe de l'opposition officielle;
-Membre de la Commission permanente de la présidence du conseil",,"Mercier–Hochelaga-Maisonneuve","Louis-Riel","Ensemble Montréal",,,,,,"6854, rue Sherborooke Est",,"Montréal","Québec","H1N 1E1",,,"514-868-4551","alba.zunigaramos@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/gzm9ug2u2r9ldc9jpv9w.jpg","https://montreal.ca/elus/alba-zuniga-ramos-22249","7,40"
-"Christine","Black","Madame","Maire(sse) d'arrondissement;
-Vice-présidente de la Commission sur l'inspecteur général",,"Montréal-Nord",,"Ensemble Montréal",,,,,,"4243, rue de Charleroi",,"Montréal","Québec","H1H 5R5","514-328-4000 poste 5570",,"514-328-5577","christine.black@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/k3atohvsmv5tvlpmkoal.jpg","https://montreal.ca/elus/christine-black-1102","8,00"
-"Jean Marc","Poirier","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Montréal-Nord","Marie-Clarac","Ensemble Montréal",,,,,,"4243, rue de Charleroi",,"Montréal","Québec","H1H 5R5","514-328-4000 Poste 5575",,"514-328-5577","jean-marc.poirier@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/wj8px9h0jkrl0culzzuy.jpg","https://montreal.ca/elus/jean-marc-poirier-1120","8,11"
-"Chantal","Rossi","Madame","Conseiller(ère) de la Ville;
-Leader de l'opposition officielle;
-Membre de la Commission permanente de la présidence du conseil",,"Montréal-Nord","Ovide-Clermont","Ensemble Montréal",,,,,,"4243, rue de Charleroi",,"Montréal","Québec","H1H 5R5","514-328-4000 Poste 5573",,"514-328-5577","chantal.rossi@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/b8hc0ekd4uqfri4vvwqr.jpg","https://montreal.ca/elus/chantal-rossi-1098","8,20"
-"Abdelhaq","Sari","Monsieur","Conseiller(ère) de la Ville;
-Vice-président de la Commission de la sécurité publique",,"Montréal-Nord","Marie-Clarac","Ensemble Montréal",,,,,,"4243, rue de Charleroi",,"Montréal","Québec","H1H 5R5","514-328-4000 Poste 5574",,"514-328-5577","abdelhaq.sari@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ntaiqzgab76bwarztb0k.jpg","https://montreal.ca/elus/abdelhaq-sari-1191","8,10"
-"Philippe","Thermidor","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Montréal-Nord","Ovide-Clermont","Ensemble Montréal",,,,,,"4243, rue de Charleroi",,"Montréal","Québec","H1H 5R5",,,"514-328-5577","philippe.thermidor@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/fklvsjzariwo1fyvp0hl.jpg","https://montreal.ca/elus/philippe-thermidor-22252","8,21"
-"Caroline","Braun","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'examen des contrats",,"Outremont","Jeanne-Sauvé","Ensemble Montréal",,,,,,"543, chemin de la Côte-Sainte-Catherine ",,"Montréal","Québec","H2V 4R2",,,"514-495-6290","caroline.braun@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/cy9mnvsecwhh72q9kp4x.jpg","https://montreal.ca/elus/caroline-braun-22254","9,40"
-"Laurent","Desbois","Monsieur","Maire(sse) d'arrondissement;
-Vice-président de la Commission sur les finances et l'administration",,"Outremont",,"Ensemble Montréal",,,,,,"543, chemin de la Côte-Sainte-Catherine ",,"Montréal","Québec","H2V 4R2",,,"514-495-6290","laurent.desbois@montreal.ca",,"https://montreal.ca/elus/laurent-desbois-22627","9,00"
-"Valérie","Patreau","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs;
-Vice-présidente de la Commission sur l'examen des contrats",,"Outremont","Joseph-Beaubien","Projet Montréal - Équipe Valérie Plante",,,,,,"543, chemin de la Côte-Sainte-Catherine ",,"Montréal","Québec","H2V 4R2",,,"514-495-6290","valerie.patreau@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/pnq6rwzff9kfjnu5vfoy.jpg","https://montreal.ca/elus/valerie-patreau-1184","9,20"
-"Mindy","Pollak","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur le développement social et la diversité montréalaise;
-Membre de la Commission sur le transport et les travaux publics",,"Outremont","Claude-Ryan","Projet Montréal - Équipe Valérie Plante",,,,,,"543, chemin de la Côte-Sainte-Catherine ",,"Montréal","Québec","H2V 4R2","514-495-6230",,"514-495-6290","mindy.pollak@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/gtltj2140dgbzss0nesk.jpg","https://montreal.ca/elus/mindy-pollak-1156","9,10"
-"Marie","Potvin","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;",,"Outremont","Robert-Bourassa","Ensemble Montréal",,,,,,"543, chemin de la Côte-Sainte-Catherine ",,"Montréal","Québec","H2V 4R2",,,"514-495-6290","marie.potvin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/tyrijz6bj54kua6fmgwe.jpg","https://montreal.ca/elus/marie-potvin-22256","9,30"
-"Dimitrios (Jim)","Beis","Monsieur","Maire(sse) d'arrondissement;
-Membre du conseil d'agglomération;
-Vice-président de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",,"Pierrefonds-Roxboro",,"Ensemble Montréal",,,,,,"13665, boulevard de Pierrefonds",,"Montréal","Québec","H9A 2Z4","514-624-1400",,"514-624-1415","dimitrios.beis@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/hw8vizt3vjw1jlcnkdjo.jpg","https://montreal.ca/elus/dimitrios-jim-beis-1105","10,00"
-"Catherine","Clément-Talbot","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur le développement social et la diversité montréalaise",,"Pierrefonds-Roxboro","Cap-Saint-Jacques","Ensemble Montréal",,,,,,"13665, boulevard de Pierrefonds",,"Montréal","Québec","H9A 2Z4","514-624-1174",,"514-624-1415","catherine.clement-talbot@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/uw7f6funfhqac8wy6mlw.jpg","https://montreal.ca/elus/catherine-clement-talbot-1096","10,20"
-"Benoit","Langevin","Monsieur","Conseiller(ère) de la Ville;
-Vice-président de la Commission sur le développement économique et urbain et l'habitation",,"Pierrefonds-Roxboro","Bois-de-Liesse","Ensemble Montréal",,,,,,"13665, boulevard de Pierrefonds",,"Montréal","Québec","H9A 2Z4","514-624-1488",,"514-624-1415","benoit.langevin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/cinqzmchzrzhwzrzps8i.jpg","https://montreal.ca/elus/benoit-langevin-1094","10,10"
-"Louise","Leroux","Madame","Conseiller(ère) d'arrondissement;
-",,"Pierrefonds-Roxboro","Bois-de-Liesse","Ensemble Montréal",,,,,,"13665, boulevard de Pierrefonds",,"Montréal","Québec","H9A 2Z4","514-624-1053",,"514-624-1415","louise.leroux@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/axrgkf111usixiepgdv8.jpg","https://montreal.ca/elus/louise-leroux-1136","10,11"
-"Chahi (Sharkie)","Tarakjian","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Pierrefonds-Roxboro","Cap-Saint-Jacques","Ensemble Montréal",,,,,,"13665, boulevard de Pierrefonds",,"Montréal","Québec","H9A 2Z4",,,"514-624-1415","chahi.tarakjian@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/etj8lmrtbmajbnatukwe.jpg","https://montreal.ca/elus/chahi-sharkie-tarakjian-22258","10,21"
-"Marianne","Giguère","Madame","Conseiller(ère) de la Ville;
-Conseillère associée;
-Membre de la Commission sur l'inspecteur général","Conseillère associée aux transports actifs","Plateau-Mont-Royal","De Lorimier","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","marianne.giguere@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/rqtfu4sqrqbqy1v68v17.jpg","https://montreal.ca/elus/marianne-giguere-1145","11,20"
-"Alex","Norris","Monsieur","Conseiller(ère) de la Ville;
-Leader de la majorité;
-Porte-parole d'assemblée et membre du conseil d'agglomération;
-Membre de la Commission permanente de la présidence du conseil",,"Plateau-Mont-Royal","Jeanne-Mance","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","alex.norris@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/eeygbbqymhpenpdmee4z.jpg","https://montreal.ca/elus/alex-norris-1090","11,30"
-"Laurence","Parent","Madame","Conseiller(ère) d'arrondissement;
-Présidente de la Commission sur le transport et les travaux publics",,"Plateau-Mont-Royal","De Lorimier","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","laurence.parent@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jjehbpjxr9p8aewtkkoz.jpg","https://montreal.ca/elus/laurence-parent-22245","11,21"
-"Marie","Plourde","Madame","Conseiller(ère) de la Ville;
-Membre du conseil d'agglomération;
-Mairesse suppléante;
-Présidente de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",,"Plateau-Mont-Royal","Mile-End","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","marie.plourde@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/z1klxirwyykcettdlwoc.jpg","https://montreal.ca/elus/marie-plourde-1146","11,10"
-"Luc","Rabouin","Monsieur","Maire(sse) d'arrondissement;
-Membre du comité exécutif","Responsable du développement économique et commercial, du savoir, de l'innovation et du design","Plateau-Mont-Royal",,"Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","luc.rabouin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/f2kupdoy4xzzq8u0jfob.jpg","https://montreal.ca/elus/luc-rabouin-2510","11,00"
-"Marie","Sterlin","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur le développement social et la diversité montréalaise",,"Plateau-Mont-Royal","Mile-End","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","marie.sterlin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jlogl1syfbd1x0hlnq7i.jpg","https://montreal.ca/elus/marie-sterlin-22246","11,11"
-"Maeva","Vilain","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Présidente de la Commission sur le développement social et la diversité montréalaise",,"Plateau-Mont-Royal","Jeanne-Mance","Projet Montréal - Équipe Valérie Plante",,,,,,"201, avenue Laurier Est","5e étage","Montréal","Québec","H2T 3E6","514-872-8023",,"514-868-4077","maeva.vilain@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jc31hujhkpqg8mpyoih8.jpg","https://montreal.ca/elus/maeva-vilain-1141","11,31"
-"Marie-Claude","Baril","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur le développement économique et urbain et l'habitation;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs",,"Rivière-des-Prairies–Pointe-aux-Trembles","Pointe-aux-Trembles","Projet Montréal - Équipe Valérie Plante",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1",,,"514-868-4353","marie-claude.baril@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ah2ap4ri30tlso3biuo7.jpg","https://montreal.ca/elus/marie-claude-baril-22261","12,21"
-"Caroline","Bourgeois","Madame","Maire(sse) d'arrondissement;
-Vice-présidente du comité exécutif","Responsable des grands parcs, du mont Royal, des sports et des loisirs, d'Espace pour la vie et du parc Jean-Drapeau","Rivière-des-Prairies–Pointe-aux-Trembles",,"Projet Montréal - Équipe Valérie Plante",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1","514-868-4050",,"514-868-4353","caroline.bourgeois@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/rwz8eazmxht9nucl5y8f.jpg","https://montreal.ca/elus/caroline-bourgeois-1301","12,00"
-"Lisa","Christensen","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur les finances et l'administration;
-Membre de la Commission sur l'inspecteur général;
-Membre de la Commission de la sécurité publique",,"Rivière-des-Prairies–Pointe-aux-Trembles","La Pointe-aux-Prairies","Projet Montréal - Équipe Valérie Plante",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1","514-868-4050",,"514-868-4353","lisa.christensen@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/gmfwgglaczb6owxrvo3t.jpg","https://montreal.ca/elus/lisa-christensen-1134","12,10"
-"Daphney","Colin","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'examen des contrats;
-Présidente de la Commission de la sécurité publique",,"Rivière-des-Prairies–Pointe-aux-Trembles","La Pointe-aux-Prairies","Projet Montréal - Équipe Valérie Plante",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1",,,"514-868-4353","daphney.colin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/avnxhul8y6hadvlzcuqa.jpg","https://montreal.ca/elus/daphney-colin-22260","12,11"
-"Virginie","Journeau","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs;
-Membre de la Commission sur les finances et l'administration",,"Rivière-des-Prairies–Pointe-aux-Trembles","Pointe-aux-Trembles","Projet Montréal - Équipe Valérie Plante",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1",,,"514-868-4353","virginie.journeau@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/smq5pxzn0uppo5rldmas.jpg","https://montreal.ca/elus/virginie-journeau-22262","12,20"
-"Nathalie","Pierre-Antoine","Madame","Conseiller(ère) d'arrondissement;
-",,"Rivière-des-Prairies–Pointe-aux-Trembles","Rivière-des-Prairies","Ensemble Montréal",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1","514-868-4052",,"514-868-4353","nathalie.pierre-antoine@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/ofbf8febouex9czlxfxt.jpg","https://montreal.ca/elus/nathalie-pierre-antoine-1158","12,31"
-"Giovanni","Rapanà","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs",,"Rivière-des-Prairies–Pointe-aux-Trembles","Rivière-des-Prairies","Ensemble Montréal",,,,,,"12090, rue Notre-Dame Est ",,"Montréal","Québec","H1B 1Z1","514-868-5558",,"514-868-4353","giovanni.rapana@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/qqyl6uww0plobm5etcy8.jpg","https://montreal.ca/elus/giovanni-rapana-1116","12,30"
-"Ericka","Alneus","Madame","Conseiller(ère) de la Ville;
-Membre du comité exécutif","Responsable de la culture et du patrimoine","Rosemont–La Petite-Patrie","Étienne-Desmarteau","Projet Montréal - Équipe Valérie Plante",,,,,,"5650, rue D'Iberville","2e étage","Montréal","Québec","H2G 2B3",,,"514-868-3932","ericka.alneus@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/geuaj8eyrzfdz06uruq9.jpg","https://montreal.ca/elus/ericka-alneus-22265","13,20"
-"Josefina","Blanco","Madame","Conseiller(ère) de la Ville;
-Membre du comité exécutif","Responsable de la diversité, de l'inclusion sociale, de l'itinérance et de l'accessibilité universelle, de la condition féminine, de la diversité, de la jeunesse et des personnes aînées","Rosemont–La Petite-Patrie","Saint-Édouard","Projet Montréal - Équipe Valérie Plante",,,,,,"5650, rue D'Iberville","2e étage","Montréal","Québec","H2G 2B3",,,"514-868-3932","josefina.blanco@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jmjkglb0cy5ubx78cxme.jpg","https://montreal.ca/elus/josefina-blanco-1126","13,10"
-"François","Limoges","Monsieur","Maire(sse) d'arrondissement;
+Membre de la Commission de la sécurité publique",Côte-des-Neiges–Notre-Dame-de-Grâce,514-868-3327,graciakasoki.katahwa@montreal.ca,https://montreal.ca/elus/gracia-kasoki-katahwa-22620,"3,00"
+Laurence,Lavigne-Lalonde,Madame,"Maire(sse) d'arrondissement;
+Membre de la Commission sur l'inspecteur général",Villeray–Saint-Michel–Parc-Extension,514-872-2402,laurence.lavignelalonde@montreal.ca,https://montreal.ca/elus/laurence-lavigne-lalonde-1131,"19,00"
+François,Limoges,Monsieur,"Maire(sse) d'arrondissement;
 Membre de la Commission sur le développement économique et urbain et l'habitation;
 Membre de la Commission sur l'inspecteur général
-Membre du Comité de vérification ",,"Rosemont–La Petite-Patrie",,"Projet Montréal - Équipe Valérie Plante",,,,,,"5650, rue D'Iberville","2e étage","Montréal","Québec","H2G 2B3",,,"514-868-3932","francois.limoges@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/y6n6xleggygftehjbgwf.jpg","https://montreal.ca/elus/francois-limoges-1112","13,00"
-"Dominique","Ollivier","Madame","Conseiller(ère) de la Ville;
-Présidente du comité exécutif;
-Membre du conseil d'agglomération","Responsable des finances, des ressources humaines, des relations gouvernementales, de la lutte au racisme et aux discriminations systémiques et de la langue française","Rosemont–La Petite-Patrie","Vieux-Rosemont","Projet Montréal - Équipe Valérie Plante",,,,,,"5650, rue D'Iberville","2e étage","Montréal","Québec","H2G 2B3",,,"514-868-3932","dominique.ollivier@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/kcmu8lsnhx0davygkfme.jpg","https://montreal.ca/elus/dominique-ollivier-22268","13,30"
-"Jocelyn","Pauzé","Monsieur","Conseiller(ère) de la Ville;
+Membre du Comité de vérification ",Rosemont–La Petite-Patrie,514-868-3932,francois.limoges@montreal.ca,https://montreal.ca/elus/francois-limoges-1112,"13,00"
+Alan,DeSousa,Monsieur,"Maire(sse) d'arrondissement;
+Membre de la Commission sur les finances et l'administration",Saint-Laurent,514-855-6049,alan.desousa@montreal.ca,https://montreal.ca/elus/alan-desousa-1089,"14,00"
+Luc,Rabouin,Monsieur,"Maire(sse) d'arrondissement;
+Membre du comité exécutif",Plateau-Mont-Royal,514-868-4077,luc.rabouin@montreal.ca,https://montreal.ca/elus/luc-rabouin-2510,"11,00"
+Marie-Andrée,Mauger,Madame,"Maire(sse) d'arrondissement;
+Membre du comité exécutif",Verdun,514-765-7013,marie-andree.mauger@montreal.ca,https://montreal.ca/elus/marie-andree-mauger-1147,"17,00"
+Émilie,Thuillier,Madame,"Maire(sse) d'arrondissement;
+Membre du comité exécutif;
+Membre du conseil d'agglomération;",Ahuntsic-Cartierville,514-868-3324,emilie.thuilier@montreal.ca,https://montreal.ca/elus/emilie-thuillier-1108,"1,00"
+Maja,Vodanovic,Madame,"Maire(sse) d'arrondissement;
+Membre du comité exécutif;
+Membre du conseil d'agglomération;",Lachine,514-780-7700,maja.vodanovic@montreal.ca,https://montreal.ca/elus/maja-vodanovic-1143,"4,00"
+Pierre,Lessard-Blais,Monsieur,"Maire(sse) d'arrondissement;
 Membre du conseil d'agglomération;
-Président de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",,"Rosemont–La Petite-Patrie","Marie-Victorin","Projet Montréal - Équipe Valérie Plante",,,,,,"5650, rue D'Iberville","2e étage","Montréal","Québec","H2G 2B3","514-868-3931",,"514-868-3932","jocelyn.pauze@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/o7vbycb7uptjri37ardy.jpg","https://montreal.ca/elus/jocelyn-pauze-1124","13,40"
-"Jacques","Cohen","Monsieur","Conseiller(ère) d'arrondissement;
-",,"Saint-Laurent","Côte-de-Liesse","Ensemble Montréal",,,,,,"777, boulevard Marcel-Laurin",,"Montréal","Québec","H4M 2M7","514-855-6000 poste 4044",,"514-855-6049","jacques.cohen@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/exwwulpd8iwfknk1xkg9.jpg","https://montreal.ca/elus/jacques-cohen-1119","14,11"
-"Alan","DeSousa","Monsieur","Maire(sse) d'arrondissement;
-Membre de la Commission sur les finances et l'administration",,"Saint-Laurent",,"Ensemble Montréal",,,,,,"777, boulevard Marcel-Laurin",,"Montréal","Québec","H4M 2M7","514-855-6000 poste 4005",,"514-855-6049","alan.desousa@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/rw3ah8ctqqksj22th0n5.jpg","https://montreal.ca/elus/alan-desousa-1089","14,00"
-"Annie","Gagnier","Madame","Conseiller(ère) d'arrondissement;
-",,"Saint-Laurent","Norman-McLaren","Ensemble Montréal",,,,,,"777, boulevard Marcel-Laurin",,"Montréal","Québec","H4M 2M7",,,"514-855-6049","annie.gagnier@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/u5ogsnv4x62544dusd27.jpg","https://montreal.ca/elus/annie-gagnier-22272","14,21"
-"Vana","Nazarian","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs",,"Saint-Laurent","Côte-de-Liesse","Ensemble Montréal",,,,,,"777, boulevard Marcel-Laurin",,"Montréal","Québec","H4M 2M7",,,"514-855-6049","vana.nazarian@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/xxxmtyrx04nhiwrynsfl.jpg","https://montreal.ca/elus/vana-nazarian-22270","14,10"
-"Aref","Salem","Monsieur","Conseiller(ère) de la Ville;
-Chef de l'opposition officielle",,"Saint-Laurent","Norman-McLaren","Ensemble Montréal",,,,,,"777, boulevard Marcel-Laurin",,"Montréal","Québec","H4M 2M7","514-855-6000 poste 4042",,"514-855-6049","aref.salem@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/micqqocsllskziywbhqs.jpg","https://montreal.ca/elus/aref-salem-1093","14,20"
-"Michel","Bissonnet","Monsieur","Maire(sse) d'arrondissement;
-Vice-président de la Commission sur le transport et les travaux publics",,"Saint-Léonard",,"Ensemble Montréal",,,,,,"8400, boulevard Lacordaire",,"Montréal","Québec","H1R 3B1","514-328-8410",,"514-328-8419","michel.bissonnet@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/uduaqwfibe6vevyxzrft.jpg","https://montreal.ca/elus/michel-bissonnet-1152","15,00"
-"Suzanne","De Larochellière","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur l'inspecteur général",,"Saint-Léonard","Saint-Léonard Ouest","Ensemble Montréal",,,,,,"8400, boulevard Lacordaire",,"Montréal","Québec","H1R 3B1","514-328-8410",,"514-328-8419","suzanne.delarochelliere@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jjmqvsxmfopalx2eukm5.jpg","https://montreal.ca/elus/suzanne-de-larochelliere-22278","15,21"
-"Arij","El Korbi","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur le transport et les travaux publics",,"Saint-Léonard","Saint-Léonard Est","Ensemble Montréal",,,,,,"8400, boulevard Lacordaire",,"Montréal","Québec","H1R 3B1","514-328-8410",,"514-328-8419","arij.elkorbi@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/d8usrdjf1yqs8kfaygk2.jpg","https://montreal.ca/elus/arij-el-korbi-22274","15,11"
-"Angela","Gentile","Madame","Conseiller(ère) de la Ville;
-Membre de la Commission sur le développement économique et urbain et l'habitation",,"Saint-Léonard","Saint-Léonard Est","Ensemble Montréal",,,,,,"8400, boulevard Lacordaire",,"Montréal","Québec","H1R 3B1","514-328-8410",,"514-328-8419","angela.gentile@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/khkopgycq5lbwtrglxet.jpg","https://montreal.ca/elus/angela-gentile-22277","15,10"
-"Dominic","Perri","Monsieur","Conseiller(ère) de la Ville;
-Président de la Commission sur l'examen des contrats",,"Saint-Léonard","Saint-Léonard Ouest","Ensemble Montréal",,,,,,"8400, boulevard Lacordaire",,"Montréal","Québec","H1R 3B1","514-328-8410",,"514-328-8419","dominic.perri@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/fworbc2gjnet0duybhwi.jpg","https://montreal.ca/elus/dominic-perri-1106","15,20"
-"Benoit","Dorais","Monsieur","Maire(sse) d'arrondissement;
+Président de la Commission sur les finances et l'administration;
+Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",Mercier–Hochelaga-Maisonneuve,514-868-4551,pierre.lessard-blais@montreal.ca,https://montreal.ca/elus/pierre-lessard-blais-1164,"7,00"
+Dimitrios (Jim),Beis,Monsieur,"Maire(sse) d'arrondissement;
+Membre du conseil d'agglomération;
+Vice-président de la Commission sur la culture, le patrimoine et les sports;
+Membre de la Commission sur le schéma d'aménagement et de dévelopement de Montréal",Pierrefonds-Roxboro,514-624-1415,dimitrios.beis@montreal.ca,https://montreal.ca/elus/dimitrios-jim-beis-1105,"10,00"
+Nancy,Blanchet,Madame,"Maire(sse) d'arrondissement;
+Présidente d'assemblée et membre du conseil d'agglomération;
+Membre de la Commission sur le développement social et la diversité montréalaise;",LaSalle,514-367-6600,nancy.blanchet@montreal.ca,https://montreal.ca/elus/nancy-blanchet-1157,"5,00"
+Stéphane,Côté,Monsieur,"Maire(sse) d'arrondissement;
+Vice-président de la Commission sur l'eau, l'environnement, le développement durable et les grands parcs",Ile-Bizard - Sainte-Geneviève,514-620-8198,stephane.cote2@montreal.ca,https://montreal.ca/elus/stephane-cote-22234,"6,00"
+Michel,Bissonnet,Monsieur,"Maire(sse) d'arrondissement;
+Vice-président de la Commission sur le transport et les travaux publics",Saint-Léonard,514-328-8419,michel.bissonnet@montreal.ca,https://montreal.ca/elus/michel-bissonnet-1152,"15,00"
+Laurent,Desbois,Monsieur,"Maire(sse) d'arrondissement;
+Vice-président de la Commission sur les finances et l'administration",Outremont,514-495-6290,laurent.desbois@montreal.ca,https://montreal.ca/elus/laurent-desbois-22627,"9,00"
+Benoit,Dorais,Monsieur,"Maire(sse) d'arrondissement;
 Vice-président du comité exécutif;
 Membre du conseil d'agglomération
-Membre du Comité de vérification","Responsable de l'habitation, de la stratégie immobilière et des affaires juridique","Sud-Ouest",,"Projet Montréal - Équipe Valérie Plante",,,,,,"815, rue Bel-Air",,"Montréal","Québec","H4C 2K4"," 514-872-6814",,"514-872-3705","benoit.dorais@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/kvdxtouudngc6m2zs5xs.jpg","https://montreal.ca/elus/benoit-dorais-1095","16,00"
-"Tan Shan","Li","Madame","Conseiller(ère) d'arrondissement;
-",,"Sud-Ouest","Saint-Henri-Est–Petite-
-Bourgogne–Pointe-Saint-
-Charles–Griffintown","Projet Montréal - Équipe Valérie Plante",,,,,,"815, rue Bel-Air",,"Montréal","Québec","H4C 2K4"," 514-872-6814",,"514-872-3705","tanshan.li@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/y97ndbpajogiy2piyy1r.jpg","https://montreal.ca/elus/tan-shan-li-22248","16,11"
-"Craig","Sauvé","Monsieur","Conseiller(ère) de la Ville;
-",,"Sud-Ouest","Saint-Henri-Est–Petite-
-Bourgogne–Pointe-Saint-
-Charles–Griffintown","Indépendant(e)",,,,,,"815, rue Bel-Air",,"Montréal","Québec","H4C 2K4"," 514-872-6814",,"514-872-3705","craig.sauve@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/mglwwrxlv9oeocdcu4fe.jpg","https://montreal.ca/elus/craig-sauve-1104","16,10"
-"Anne-Marie","Sigouin","Madame","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur le développement économique et urbain et l'habitation;
-Membre de la Commission sur les finances et l'administration",,"Sud-Ouest","Saint-Paul–Émard–
-Saint-Henri-Ouest","Projet Montréal - Équipe Valérie Plante",,,,,,"815, rue Bel-Air",,"Montréal","Québec","H4C 2K4"," 514-872-6814",,"514-872-3705","anne-marie.sigouin@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/jvfdtzrjev9oxuw1irct.jpg","https://montreal.ca/elus/anne-marie-sigouin-1092","16,21"
-"Alain","Vaillancourt","Monsieur","Conseiller(ère) de la Ville;
-Membre du comité exécutif;
-Membre du conseil d'agglomération","Rresponsable de la sécurité publique","Sud-Ouest","Saint-Paul–Émard– 
-Saint-Henri-Ouest","Projet Montréal - Équipe Valérie Plante",,,,,,"815, rue Bel-Air",,"Montréal","Québec","H4C 2K4"," 514-872-6814",,"514-872-3705","alain.vaillancourt@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/kmxmwcawnikgyny4rvw1.jpg","https://montreal.ca/elus/alain-vaillancourt-1088","16,20"
-"Kaïla","A. Munro","Madame","Conseiller(ère) d'arrondissement;
-Présidente de la Commission sur le développement économique et urbain et l'habitation",,"Verdun","Desmarchais-Crawford","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","kaila.amunro@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/mypwkyup8zqjitdy2ttu.jpg","https://montreal.ca/elus/kaila-munro-22282","17,22"
-"Céline-Audrey","Beauregard","Madame","Conseiller(ère) d'arrondissement;
-",,"Verdun","Champlain–L'Île-des-Soeurs","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","celine-audrey.beauregard@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/qrilowslajbckcpdojti.jpg","https://montreal.ca/elus/celine-audrey-beauregard-22281","17,11"
-"Sterling","Downey","Monsieur","Conseiller(ère) de la Ville;
-Membre du conseil d'agglomération;
-Vice-président de la Commission permanente de la présidence du conseil;
-Membre de la Commission sur le développement social et la diversité montréalaise",,"Verdun","Desmarchais-Crawford","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","sterling.downey@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/toj9bzl3darsbtprnbom.jpg","https://montreal.ca/elus/sterling-downey-1178","17,20"
-"Benoit","Gratton","Monsieur","Conseiller(ère) d'arrondissement;
-Membre de la Commission de la sécurité publique;
-Membre de la Commission sur les finances et l'administration;
-Membre de la Commission sur le transport et les travaux publics",,"Verdun","Desmarchais-Crawford","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","benoit.gratton@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/vb79zp0qfd9gnobfjedu.jpg","https://montreal.ca/elus/benoit-gratton-22283","17,21"
-"Enrique","Machado","Monsieur","Conseiller(ère) d'arrondissement;
-Membre de la Commission sur la culture, le patrimoine et les sports;
-Membre de la Commission sur l'examen des contrats;
-Membre de la Commission sur le transport et les travaux publics",,"Verdun","Champlain–L'Île-des-Soeurs","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","enrique.machado@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/xbddf6cwkpkao31d6jtx.jpg","https://montreal.ca/elus/enrique-machado-22280","17,12"
-"Marie-Andrée","Mauger","Madame","Maire(sse) d'arrondissement;
-Membre du comité exécutif","Responsable de la transition écologique et de l'environnement","Verdun",,"Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","marie-andree.mauger@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/v82k9qiqgvtu2oxwkgk4.jpg","https://montreal.ca/elus/marie-andree-mauger-1147","17,00"
-"Véronique","Tremblay","Madame","Conseiller(ère) de la Ville;
-Présidente de la Commission permanente de la présidence du conseil",,"Verdun","Champlain–L'Île-des-Soeurs","Projet Montréal - Équipe Valérie Plante",,,,,,"4555, rue de Verdun ",,"Montréal","Québec","H4G 1M4","514-765-7010",,"514-765-7013","veronique.tremblay@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/s51v01dfurzee8tah71f.jpg","https://montreal.ca/elus/veronique-tremblay-1186","17,10"
-"Valérie","Plante","Madame","Maire(sse);
-Mairesse de l'arrondissement de Ville-Marie;
-Membre du comité exécutif;
-Membre du conseil d'agglomération","Responsable des relations internationales, de la réconciliation avec les peuples autochtones, de la relance du centre-ville et du développement économique international","Ville de Montréal",,"Projet Montréal - Équipe Valérie Plante","155, rue Notre-Dame Est",,"Montréal","Québec","H2Y 1C6","800, boulevard De Maisonneuve Est","17e étage","Montréal","Québec","H2L 2L8",,"514-872-3101",,"valerie.plante@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/m22ae4emnblbyxixts18.jpg","https://montreal.ca/elus/valerie-plante-1211",0
-"Robert","Beaudry","Monsieur","Conseiller(ère) de la Ville;
-Membre du comité exécutif;
-Membre du conseil d'agglomération","Responsable de l'urbanisme, de la participation citoyenne et de la démocratie","Ville-Marie","Saint-Jacques","Projet Montréal - Équipe Valérie Plante",,,,,,"800, boulevard De Maisonneuve Est","17e étage","Montréal","Québec","H2L 2L8","514-868-5298",,"514-872-8347","robert.beaudry@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/q7w6el2su93or3twfobf.jpg","https://montreal.ca/elus/robert-beaudry-1171","18,20"
-"Sophie","Mauzerolle","Madame","Conseiller(ère) de la Ville;
-Membre du comité exécutif;
-Membre du conseil d'agglomération","Responsable du transport et de la mobilité","Ville-Marie","Sainte-Marie","Projet Montréal - Équipe Valérie Plante",,,,,,"800, boulevard De Maisonneuve Est","17e étage","Montréal","Québec","H2L 2L8"," 514-868-5167",,"514-872-8347","sophie.mauzerolle@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/crrwjm1bxhw0zqsyelzb.jpg","https://montreal.ca/elus/sophie-mauzerolle-1175","18,30"
-"Serge","Sasseville","Monsieur","Conseiller(ère) de la Ville;",,"Ville-Marie","Peter-McGill","Indépendant(e)",,,,,,"800, boulevard De Maisonneuve Est","17e étage","Montréal","Québec","H2L 2L8",,,"514-872-8347","serge.sasseville@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/wycgfpofhmvurbk14nw0.jpg","https://montreal.ca/elus/serge-sasseville-22284","18,10"
-"Josué","Corvil","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission sur le développement social et la diversité montréalaise",,"Villeray–Saint-Michel–Parc-Extension","Saint-Michel","Ensemble Montréal",,,,,,"405, rue Ogilvy","Bureau 103","Montréal","Québec","H3N 1M3","514-872-7800",,"514-872-2402","josue.corvil@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/rtkemczboffk9fgq0qao.jpg","https://montreal.ca/elus/josue-corvil-1302","19,10"
-"Mary","Deros","Madame","Conseiller(ère) de la Ville;
-Vice-présidente de la Commission sur le développement social et la diversité montréalaise",,"Villeray–Saint-Michel–Parc-Extension","Parc-Extension","Ensemble Montréal",,,,,,"405, rue Ogilvy","Bureau 103","Montréal","Québec","H3N 1M3","514-872-3103",,"514-872-2402","mary.deros@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/uzusr42c6doaz2jlwasn.jpg","https://montreal.ca/elus/mary-deros-1151","19,40"
-"Laurence","Lavigne-Lalonde","Madame","Maire(sse) d'arrondissement;
-Membre de la Commission sur l'inspecteur général",,"Villeray–Saint-Michel–Parc-Extension",,"Projet Montréal - Équipe Valérie Plante",,,,,,"405, rue Ogilvy","Bureau 103","Montréal","Québec","H3N 1M3",,,"514-872-2402","laurence.lavignelalonde@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/s51llpkj4x94bpykdsum.jpg","https://montreal.ca/elus/laurence-lavigne-lalonde-1131","19,00"
-"Martine","Musau Muele","Madame","Conseiller(ère) de la Ville;
-Présidente du conseil;
-Membre de la Commission permanente de la présidence du conseil",,"Villeray–Saint-Michel–Parc-Extension","Villeray","Projet Montréal - Équipe Valérie Plante",,,,,,"405, rue Ogilvy","Bureau 103","Montréal","Québec","H3N 1M3",,,"514-872-2402","martine.musaumuele@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/yziad5cawsytyuswaswh.jpg","https://montreal.ca/elus/martine-musau-muele-22285","19,30"
-"Sylvain","Ouellet","Monsieur","Conseiller(ère) de la Ville;
-Membre de la Commission sur l'examen des contrats;
-Membre de la Commission sur les finances et l'administration",,"Villeray–Saint-Michel–Parc-Extension","François-Perrault","Projet Montréal - Équipe Valérie Plante",,,,,,"405, rue Ogilvy","Bureau 103","Montréal","Québec","H3N 1M3","514-872-7763",,"514-872-2402","sylvain.ouellet@montreal.ca","https://res.cloudinary.com/villemontreal/image/upload/f_auto,dpr_auto,q_auto,w_348,ar_1,c_fill/v1/portail/m7vkxzdzuttfenn50thb.jpg","https://montreal.ca/elus/sylvain-ouellet-1183","19,20"
+Membre du Comité de vérification",Sud-Ouest,514-872-3705,benoit.dorais@montreal.ca,https://montreal.ca/elus/benoit-dorais-1095,"16,00"
+Christine,Black,Madame,"Maire(sse) d'arrondissement;
+Vice-présidente de la Commission sur l'inspecteur général",Montréal-Nord,514-328-5577,christine.black@montreal.ca,https://montreal.ca/elus/christine-black-1102,"8,00"
+Caroline,Bourgeois,Madame,"Maire(sse) d'arrondissement;
+Vice-présidente du comité exécutif",Rivière-des-Prairies–Pointe-aux-Trembles,514-868-4353,caroline.bourgeois@montreal.ca,https://montreal.ca/elus/caroline-bourgeois-1301,"12,00"

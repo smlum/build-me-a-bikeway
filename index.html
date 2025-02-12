@@ -10,23 +10,67 @@
 
 </head>
 <body>
+    
     <!-- Navbar -->
     <div class="navbar">
         <h1>🚴 Build me a Bikeway</h1>
     </div>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <p>A simple tool to help request better bike infrastructure in your area. 🚴 </p>
-        <p>Pick a spot on the map, get your local official’s contact information, and send a ready-to-go email.</p>
-        <p>🚨 This tool if far from perfect! Please double-check and customize your email before sending.</p>
+    <div id="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+        <p>A simple tool to help request better bike infrastructure in your area. 🚴</p>
+        <p>Zoom in and click a road on the map to get your local official’s contact information, and send an email using our template.</p>
+        <p>🚨 This tool is far from perfect! Double-check and customize your email before sending.</p>
 
-        <!-- Dropdown Toggle for How It Works -->
-        <button class="dropdown-btn">🛠 How It Works ▼</button>
-        <div class="dropdown-content">
-            <p>Most bike infrastructure is planned at the <strong>municipal level</strong>, and in many cities, there is no formal way to request new cycling infrastructure.</p>
-            <p>One of the most effective ways to advocate for better bike lanes is to <strong>contact your local representative</strong>. By highlighting specific routes and expressing public interest, you help create momentum for better cycling infrastructure in your community.</p>
-            <p>📢 <strong>Your voice matters!</strong> The more people who request safer streets, the more likely cities are to prioritize bike-friendly projects.</p>
+        <!-- Contact Info: Hidden by default -->
+        
+        <div id="contact-info" style="display:none;">
+            <hr>
+            <h3>Contact info</h3>
+            <p>
+            Local mayor: 
+            <a href="#" id="contact-link" target="_blank">[Official Name]</a>
+            </p>
+            <p>
+            Email: 
+            <a href="#" id="contact-email-link">[Email]</a>
+            </p>
+            <p>
+            Phone: 
+            <a href="#" id="contact-phone-link">[Phone]</a>
+            </p>
+        </div>
+
+        <!-- Email Template -->
+        <div id="email-template">
+            <hr>
+            <!-- New Copy Button -->
+            <button id="copy-btn">Copy Email to Clipboard</button>
+
+            
+            <p id="email-subject">Subject: <span id="subject-content">New Bikeway Request</span></p>
+            <p>Dear <span id="contact-greeting">[Official Name]</span>,</p>
+            <p>
+            I'm writing to bring your attention to the road segment 
+            <strong><span id="road-name">[Road Name]</span></strong> between 
+            <strong><span id="road-name-1">[Insert Road Name 1]</span></strong> and 
+            <strong><span id="road-name-2">[Insert Road Name 2]</span></strong>, located in 
+            <span id="admin-boundary">[Admin Boundary]</span>.
+            </p>
+            <p>
+            I believe that adding a 
+            <strong><span id="infrastructure-type">[Insert desired bike infrastructure type]</span></strong> on this road, would:
+            </p>
+            <ul>
+            <li>Save me time on my daily commute</li>
+            <li>Make cycling here safer</li>
+            <li>Make cycling more accessible to others in my community</li>
+            <li><span id="custom-reasons">[Add your reasons!]</span></li>
+            </ul>
+            <p>Thank you for your time and consideration.</p>
+            <p>Sincerely,<br>[Your Name]</p>
+        </div>
         </div>
     </div>
 
@@ -42,7 +86,10 @@
     </div>
 
     <script src="https://unpkg.com/maplibre-gl@^3.0.0/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
     <script src="index.js"></script>
     <script src="bike-network.js"></script> <!-- Separate script for bike network -->
+    <script src="find-region.js"></script>
+    <script src="copy_to_clipboard.js"></script>
 </body>
 </html>

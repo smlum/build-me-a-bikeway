@@ -1,23 +1,22 @@
 /* Global styles */
-body,
-html {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
+    height: 100%;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    /* Ensures sidebar + map are side by side */
     overflow: hidden;
-    /* Stops unwanted scrolling */
 }
 
 /* Navbar */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
-    background: #007bff;
+    background: #29b7f7;
     /* Nice blue color */
     color: white;
     display: flex;
@@ -25,25 +24,30 @@ html {
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Push everything down so it's not under the navbar */
-.sidebar,
-#map-container {
-    margin-top: 60px;
+/* Container for sidebar + map */
+#container {
+    position: absolute;
+    top: 60px;
+    /* directly below the navbar */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
 }
 
 /* Sidebar */
 .sidebar {
     width: 300px;
-    height: 100vh;
+    height: 100%;
     background: #f8f9fa;
     padding: 20px;
+    padding-bottom: 70px;
+    /* Increased bottom padding */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
     font-size: 14px;
@@ -55,20 +59,19 @@ html {
 /* Map container - fills remaining space */
 #map-container {
     flex-grow: 1;
-    height: 100vh;
-    width: 100%;
+    height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
-/* Map - ensure it's visible */
+/* Map */
 #map {
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     background: #e0e0e0;
-    /* Light gray background to debug visibility */
     z-index: 5;
 }
 
@@ -99,57 +102,21 @@ html {
     z-index: 10;
 }
 
-/* Legend title */
 .legend h4 {
     margin: 0 0 10px;
     font-weight: bold;
     font-size: 15px;
 }
 
-/* Legend items */
 .legend-item {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
-/* Legend color boxes */
 .legend-color {
     width: 15px;
     height: 15px;
     margin-right: 8px;
     border-radius: 3px;
-}
-
-/* Dropdown button for How It Works */
-.dropdown-btn {
-    width: 100%;
-    padding: 10px;
-    background: #e9ecef;
-    border: none;
-    text-align: left;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.dropdown-btn:hover {
-    background: #d6d8db;
-}
-
-/* Collapsible content */
-.dropdown-content {
-    max-height: 0;
-    overflow: hidden;
-    padding: 0 10px;
-    font-size: 14px;
-    background: #f8f9fa;
-    border-left: 3px solid #ddd;
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-}
-
-/* Expanded dropdown */
-.dropdown-content.show {
-    max-height: 500px;
-    padding: 10px;
 }
