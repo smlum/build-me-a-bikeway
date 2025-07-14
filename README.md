@@ -27,6 +27,6 @@ The app lets users click on a map to select a segment of the road network that t
 
 ## Design inspiration
 
-- [Montreal bike network map]([url](https://services.montreal.ca/en/maps/bike-paths))
-- [Hoodmaps]([url](https://hoodmaps.com/new-york-city-neighborhood-map))
+- [Montreal bike network map](https://services.montreal.ca/en/maps/bike-paths)
+- [Hoodmaps](https://hoodmaps.com/new-york-city-neighborhood-map)
 
