@@ -1,1 +1,15 @@
 #data/*
+
+# Ignore Node.js module folder
+/node_modules/
+
+# Ignore environment variables file (if you add one later)
+.env
+
+# Ignore PyCharm's project files (optional, but good practice)
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
