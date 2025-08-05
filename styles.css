@@ -21,11 +21,13 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 20px;
     font-weight: bold;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0px 20px 0px 20px; /* Add some padding to the sides */
+    box-sizing: border-box; /* Fixes the Login button from being off screen */
 }
 
 /* Container for sidebar + map */
@@ -43,10 +45,9 @@ body {
 /* Sidebar */
 .sidebar {
     width: 300px;
-    height: 100%;
     background: #f8f9fa;
     padding: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     /* Increased bottom padding */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
@@ -119,4 +120,49 @@ body {
     height: 15px;
     margin-right: 8px;
     border-radius: 3px;
+}
+
+/* New Auth Button in Navbar */
+.auth-btn {
+    background: #1a7bb4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
 }

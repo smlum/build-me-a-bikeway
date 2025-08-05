@@ -161,4 +161,128 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// ==========================================================
+// AUTHENTICATION LOGIC - UPDATED FOR DYNAMIC UI
+// ==========================================================
 
+const authBtn = document.getElementById('auth-btn');
+const authModal = document.getElementById('auth-modal');
+const closeBtn = document.querySelector('.modal-content .close-btn');
+
+const loggedOutView = document.getElementById('logged-out-view');
+const loggedInView = document.getElementById('logged-in-view');
+const currentUsernameSpan = document.getElementById('current-username');
+
+const registerForm = document.getElementById('registerForm');
+const loginForm = document.getElementById('loginForm');
+const protectedButton = document.getElementById('protectedButton');
+const logoutButton = document.getElementById('logoutButton');
+
+// Function to toggle UI based on login state
+function toggleAuthState() {
+    const token = localStorage.getItem('jwtToken');
+    if (token) {
+        // User is logged in
+        authBtn.textContent = 'Profile'; // Change button text
+        loggedOutView.style.display = 'none';
+        loggedInView.style.display = 'block';
+
+        // Decode the token to get the username
+        const payload = JSON.parse(atob(token.split('.')[1]));
+        currentUsernameSpan.textContent = payload.username;
+    } else {
+        // User is logged out
+        authBtn.textContent = 'Log In / Register';
+        loggedOutView.style.display = 'block';
+        loggedInView.style.display = 'none';
+
+        // Hide the modal after logout
+        authModal.style.display = 'none';
+    }
+}
+
+// Initial UI setup on page load
+toggleAuthState();
+
+// Show the modal
+authBtn.addEventListener('click', () => {
+    authModal.style.display = 'flex';
+});
+
+// Hide the modal
+closeBtn.addEventListener('click', () => {
+    authModal.style.display = 'none';
+});
+
+// Hide modal if user clicks outside of the content
+window.addEventListener('click', (event) => {
+    if (event.target === authModal) {
+        authModal.style.display = 'none';
+    }
+});
+
+// --- User Registration Logic ---
+registerForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const usernameInput = document.getElementById('registerUsername');
+    const emailInput = document.getElementById('registerEmail');
+    const passwordInput = document.getElementById('registerPassword');
+    const username = usernameInput.value;
+    const email = emailInput.value;
+    const password = passwordInput.value;
+
+    try {
+        await axios.post('http://localhost:3000/api/register', { username, email, password });
+        alert('Registration successful! You can now log in.');
+        usernameInput.value = '';
+        emailInput.value = '';
+        passwordInput.value = '';
+    } catch (error) {
+        alert('Registration failed: ' + (error.response ? error.response.data.message : 'Server error'));
+    }
+});
+
+
+// --- User Login Logic ---
+loginForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const usernameInput = document.getElementById('loginUsername');
+    const passwordInput = document.getElementById('loginPassword');
+    const username = usernameInput.value;
+    const password = passwordInput.value;
+
+    try {
+        const response = await axios.post('http://localhost:3000/api/login', { username, password });
+        localStorage.setItem('jwtToken', response.data.token);
+        toggleAuthState(); // Update the UI after successful login
+        alert('Login successful!');
+    } catch (error) {
+        alert('Login failed: ' + (error.response ? error.response.data.message : 'Server error'));
+    }
+});
+
+
+// --- Log Out Logic ---
+logoutButton.addEventListener('click', () => {
+    localStorage.removeItem('jwtToken');
+    toggleAuthState(); // Update the UI after logout
+    alert('You have been logged out.');
+});
+
+// --- Logic for Accessing a Protected Route ---
+protectedButton.addEventListener('click', async () => {
+    const token = localStorage.getItem('jwtToken');
+    if (!token) {
+        alert('You must be logged in to access this resource.');
+        return;
+    }
+
+    try {
+        const response = await axios.get('http://localhost:3000/api/profile', {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        alert('Protected data accessed: ' + JSON.stringify(response.data));
+    } catch (error) {
+        alert('Failed to access protected resource: ' + (error.response ? error.response.data.message : 'Server error'));
+    }
+});
