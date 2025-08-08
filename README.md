@@ -9,19 +9,29 @@ The app lets users click on a map to select a segment of the road network that t
 - **Local Official Lookup:** Uses a GeoJSON file for administrative boundaries and a JSON file (converted from CSV) for contact information.
 - **Pre-generated Email Template:** Provides a draft email that users can customize. The template includes dynamic placeholders for the road name, admin boundary, and desired bike infrastructure type.
 - **Copy-to-Clipboard Functionality:** A button copies the email text.
+- **Basic User Accounts:** Secure user accounts developed using an SQL database.
 
-## Roadmap
+## Technical Roadmap
 
-- Create a form for users to fill out requests
-  - Questions like: what type of infrastructure would you like? 
+- Create a form for users to fill out requests 
+  - Questions like: what type of infrastructure would you like? why is it necessary? 
 - Develop functionality to view crowd sourced collective infrastructure requests (votes) 
-   - e.g., see how many users have voted for improved infrastructure on a particular segment
+   - e.g., see how many users have voted for improved infrastructure on a particular segment 
    - Requires some sort of user validation to ensure the same user can't make multiple votes for the same 
-- Develop user accounts
-   - Interface for logic/ account setup
-   - Database to securely store user login/ account details
-   - Interface to view previous requests
- - Add FAQ/ definitions for cycle infrastructure
+- Continue to develop user accounts 
+   - Interface to view request history 
+   - Include other personal information besides username, email and password? 
+     - e.g., name 
+   - Retreive forgotten password 
+ - Add FAQ/ definitions for cycle infrastructure 
+ - Create French language version of site 
+ - Create mobile version of site
+ - 
+
+## Non-Technical Roadmap
+- Develop brand 
+- Stickers / posters users can physically put on roads to show they have requested a bikeway 
+- Set up contact (create email) 
 
 ## Setup
 
