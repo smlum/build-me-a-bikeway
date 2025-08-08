@@ -25,8 +25,7 @@ The app lets users click on a map to select a segment of the road network that t
    - Retreive forgotten password 
  - Add FAQ/ definitions for cycle infrastructure 
  - Create French language version of site 
- - Create mobile version of site
- - 
+ - Create mobile version of site 
 
 ## Non-Technical Roadmap
 - Develop brand 
