@@ -9,7 +9,7 @@ The app lets users click on a map to select a segment of the road network that t
 - **Local Official Lookup:** Uses a GeoJSON file for administrative boundaries and a JSON file (converted from CSV) for contact information.
 - **Pre-generated Email Template:** Provides a draft email that users can customize. The template includes dynamic placeholders for the road name, admin boundary, and desired bike infrastructure type.
 - **Copy-to-Clipboard Functionality:** A button copies the email text.
-- **Basic User Accounts:** Secure user accounts developed using an SQL database.
+- **Basic User Accounts:** Secure user accounts developed using an SQL database with ability to retreive forgotten password.
 
 ## Technical Roadmap
 
@@ -19,10 +19,8 @@ The app lets users click on a map to select a segment of the road network that t
    - e.g., see how many users have voted for improved infrastructure on a particular segment 
    - Requires some sort of user validation to ensure the same user can't make multiple votes for the same 
 - Continue to develop user accounts 
-   - Interface to view request history 
-   - Include other personal information besides username, email and password? 
-     - e.g., name 
-   - Retreive forgotten password 
+   - Interface to view request history
+   - Interface to edit account (name)
  - Add FAQ/ definitions for cycle infrastructure 
  - Create French language version of site 
  - Create mobile version of site 
