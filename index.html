@@ -76,28 +76,43 @@
         <span class="close-btn">&times;</span>
 
         <div id="logged-out-view">
-            <hr>
-            <h3>Register User</h3>
-            <form id="registerForm">
-                <label for="registerUsername">Username:</label>
-                <input type="text" id="registerUsername" required><br><br>
-                <label for="registerEmail">Email:</label>
-                <input type="email" id="registerEmail" required><br><br>
-                <label for="registerPassword">Password:</label>
-                <input type="password" id="registerPassword" required><br><br>
-                <button type="submit">Register</button>
-            </form>
+    <hr>
+    <h3>Register User</h3>
+    <form id="registerForm">
+        <label for="registerUsername">Username:</label>
+        <input type="text" id="registerUsername" required><br><br>
+        <label for="registerEmail">Email:</label>
+        <input type="email" id="registerEmail" required><br><br>
+        <label for="registerPassword">Password:</label>
+        <input type="password" id="registerPassword" required><br><br>
+        <button type="submit">Register</button>
+    </form>
 
-            <hr>
-            <h3>Log In</h3>
-            <form id="loginForm">
-                <label for="loginUsername">Username:</label>
-                <input type="text" id="loginUsername" required><br><br>
-                <label for="loginPassword">Password:</label>
-                <input type="password" id="loginPassword" required><br><br>
-                <button type="submit">Log In</button>
-            </form>
-        </div>
+    <hr>
+    <h3>Log In</h3>
+    <form id="loginForm">
+        <label for="loginUsername">Username:</label>
+        <input type="text" id="loginUsername" required><br><br>
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" required><br><br>
+        <button type="submit">Log In</button>
+    </form>
+
+    <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+    <br><br>
+
+    <div id="forgotPasswordView" style="display:none;">
+        <hr>
+        <h3>Forgot Password</h3>
+        <form id="forgotPasswordForm">
+            <label for="forgotEmail">Email:</label>
+            <input type="email" id="forgotEmail" required><br><br>
+            <button type="submit">Send Reset Link</button>
+            <br>
+            <a href="#" id="backToLoginLink">Back to Log In</a>
+        </form>
+    </div>
+</div>
 
         <div id="logged-in-view" style="display:none;">
             <p>Welcome, <strong id="current-username">User!</strong></p>

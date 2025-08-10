@@ -269,6 +269,47 @@ logoutButton.addEventListener('click', () => {
     alert('You have been logged out.');
 });
 
+// --- Forgot Password Logic ---
+
+// Get new elements from the DOM
+const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+const backToLoginLink = document.getElementById('backToLoginLink');
+const forgotPasswordView = document.getElementById('forgotPasswordView');
+const forgotPasswordForm = document.getElementById('forgotPasswordForm');
+
+// Show the forgot password form
+forgotPasswordLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    document.getElementById('registerForm').style.display = 'none';
+    document.getElementById('loginForm').style.display = 'none';
+    forgotPasswordView.style.display = 'block';
+});
+
+// Go back to the login form
+backToLoginLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    document.getElementById('registerForm').style.display = 'block';
+    document.getElementById('loginForm').style.display = 'block';
+    forgotPasswordView.style.display = 'none';
+});
+
+// Handle the forgot password form submission
+forgotPasswordForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const email = document.getElementById('forgotEmail').value;
+
+    try {
+        await axios.post('http://localhost:3000/api/forgot-password', { email });
+        alert('If a matching email was found, a password reset link has been sent to your inbox.');
+        forgotPasswordView.style.display = 'none';
+        document.getElementById('loginForm').style.display = 'block';
+    } catch (error) {
+        alert('Failed to send reset link: ' + (error.response ? error.response.data.message : 'Server error'));
+    }
+});
+
+//___________________________________
+
 // --- Logic for Accessing a Protected Route ---
 protectedButton.addEventListener('click', async () => {
     const token = localStorage.getItem('jwtToken');
