@@ -2,8 +2,8 @@
 const map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/positron',
-    center: [-73.5673, 45.5017],
-    zoom: 11
+    center: [-73.5732, 45.5196],
+    zoom: 15
 });
 
 const roadLayers = ["highway_minor", "highway_major_inner", "highway_major_subtle", "highway_motorway_inner"];

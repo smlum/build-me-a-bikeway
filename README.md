@@ -30,6 +30,7 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 - Mobile layout
 - Crowdsourced request voting (how many people want a bikeway on a given segment)
 - User accounts and request history
+- Add more data: collisions, cycle counts, etc.
 
 ## Design inspiration
 
