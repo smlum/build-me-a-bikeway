@@ -82,21 +82,22 @@ html, body {
     opacity: 0;
 }
 
-/* Navbar menu button */
+/* Navbar about button */
 #menu-btn {
-    background: none;
+    background: rgba(255, 255, 255, 0.2);
     border: none;
     color: white;
-    font-size: 22px;
+    font-size: 14px;
+    font-weight: bold;
     cursor: pointer;
-    padding: 0;
+    padding: 6px 14px;
+    border-radius: 20px;
     margin-left: auto;
-    line-height: 1;
-    opacity: 0.9;
+    letter-spacing: 0.02em;
 }
 
 #menu-btn:hover {
-    opacity: 1;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 /* Side panel */
