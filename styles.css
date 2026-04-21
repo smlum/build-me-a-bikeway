@@ -21,10 +21,10 @@ html, body {
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     z-index: 100;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
 }
 
 /* Map container — full screen below navbar */
@@ -166,19 +166,19 @@ html, body {
 
 .side-panel-body {
     overflow-y: auto;
-    padding: 20px;
-    font-size: 14px;
-    line-height: 1.65;
+    padding: 24px 20px 32px;
+    font-size: 15px;
+    line-height: 1.7;
     color: #333;
 }
 
 .side-panel-body h3 {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: #aaa;
-    margin: 20px 0 6px;
+    letter-spacing: 0.06em;
+    color: #bbb;
+    margin: 24px 0 8px;
 }
 
 .side-panel-body h3:first-child {
@@ -186,15 +186,32 @@ html, body {
 }
 
 .side-panel-body p, .side-panel-body ol {
-    margin: 0 0 10px;
+    margin: 0 0 12px;
 }
 
 .side-panel-body ol {
-    padding-left: 18px;
+    padding-left: 20px;
+}
+
+.side-panel-body ol li {
+    margin-bottom: 6px;
 }
 
 .side-panel-body a {
     color: #29b7f7;
+    text-decoration: none;
+}
+
+.side-panel-body a:hover {
+    text-decoration: underline;
+}
+
+.panel-tagline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    line-height: 1.3;
+    margin: 0 0 20px;
 }
 
 /* Legend */
@@ -231,6 +248,22 @@ html, body {
     flex-shrink: 0;
 }
 
+/* Map overlay — darkens map when sheet is expanded */
+#map-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 15;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+#map-overlay.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /* Bottom sheet */
 #bottom-sheet {
     position: absolute;
@@ -243,13 +276,19 @@ html, body {
     transform: translateY(100%);
     transition: transform 0.3s ease;
     z-index: 20;
-    max-height: 55vh;
+    max-height: 70vh;
     display: flex;
     flex-direction: column;
 }
 
 #bottom-sheet.open {
     transform: translateY(0);
+}
+
+/* Peek — shows just the handle + header, body hidden below fold */
+#bottom-sheet.peek {
+    transform: translateY(calc(100% - 78px));
+    cursor: pointer;
 }
 
 .sheet-handle {
@@ -259,13 +298,18 @@ html, body {
     border-radius: 2px;
     margin: 10px auto 0;
     flex-shrink: 0;
+    cursor: pointer;
+}
+
+.sheet-handle:hover {
+    background: #bbb;
 }
 
 .sheet-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 20px 14px;
+    padding: 16px 24px 18px;
     border-bottom: 1px solid #eee;
     flex-shrink: 0;
 }
@@ -273,41 +317,43 @@ html, body {
 .sheet-title {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
 }
 
 #sheet-road-name {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
     color: #111;
+    line-height: 1.2;
 }
 
 #sheet-borough {
-    font-size: 13px;
+    font-size: 14px;
     color: #888;
 }
 
 #sheet-close {
     background: none;
     border: none;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1;
-    color: #aaa;
+    color: #ccc;
     cursor: pointer;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 20px;
 }
 
 #sheet-close:hover {
-    color: #333;
+    color: #555;
 }
 
 .sheet-body {
     overflow-y: auto;
-    padding: 16px 20px 24px;
+    padding: 20px 24px 28px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
+    font-size: 15px;
 }
 
 /* Section label */
@@ -315,50 +361,85 @@ html, body {
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #aaa;
-    margin: 0 0 6px !important;
+    letter-spacing: 0.06em;
+    color: #bbb;
+    margin: 0 0 8px !important;
 }
 
 /* Contact info */
 #contact-info p {
-    margin: 0 0 4px;
-    font-size: 14px;
+    margin: 0 0 5px;
+    font-size: 15px;
 }
 
-/* Infrastructure type selector */
+/* Infrastructure type selector — two columns side by side */
+#infra-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+}
+
+.infra-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#infra-selector .section-label {
+    margin: 0 !important;
+}
+
+#existing-infra-display {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.infra-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
 #infra-selector label {
     display: block;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: #aaa;
-    margin-bottom: 6px;
+    letter-spacing: 0.06em;
+    color: #bbb;
+    margin-bottom: 0;
 }
 
 #infra-selector select {
     width: 100%;
-    padding: 8px 10px;
+    padding: 10px 12px;
     border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
+    border-radius: 8px;
+    font-size: 15px;
     background: white;
     cursor: pointer;
+    color: #111;
 }
 
 /* Email template preview */
 #email-template {
-    background: #f8f9fa;
+    background: #f6f8fa;
     border-radius: 8px;
-    padding: 14px 16px;
-    font-size: 13px;
-    line-height: 1.65;
+    padding: 16px 18px;
+    font-size: 14px;
+    line-height: 1.75;
     color: #333;
 }
 
 #email-template p {
-    margin: 0 0 8px;
+    margin: 0 0 10px;
 }
 
 #email-template p:last-child {
@@ -368,14 +449,15 @@ html, body {
 /* Copy button */
 #copy-btn {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     background: #29b7f7;
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    letter-spacing: 0.01em;
 }
 
 #copy-btn:hover {

@@ -11,7 +11,7 @@
 <body>
 
     <div class="navbar">
-        <h1>Build me a Bikeway</h1>
+        <h1>🚴 Build me a Bikeway</h1>
         <button id="menu-btn" aria-label="Menu">&#9776;</button>
     </div>
 
@@ -22,29 +22,30 @@
             <button id="side-panel-close" aria-label="Close">&times;</button>
         </div>
         <div class="side-panel-body">
-            <h3>What is this?</h3>
-            <p>Build me a Bikeway helps Montrealers request new cycling infrastructure from their local elected officials — in two clicks.</p>
+            <p class="panel-tagline">Better streets start with one email.</p>
+
+            <p>Montreal's cycling network has gaps. This tool helps you do something about it — find a road, get your elected official's contact, and send a request in under two minutes.</p>
 
             <h3>How it works</h3>
             <ol>
                 <li>Click any road on the map</li>
-                <li>See your borough's elected representative</li>
-                <li>Choose an infrastructure type and copy the draft email</li>
-                <li>Send it directly to your official</li>
+                <li>We find your borough's elected representative</li>
+                <li>Pick the infrastructure you want</li>
+                <li>Copy the draft email and send it</li>
             </ol>
+            <p>The more requests officials receive, the harder they are to ignore.</p>
 
-            <h3>The bike network</h3>
-            <p>The coloured lines show Montreal's existing cycling infrastructure, from protected lanes to shared roads. Use it to spot gaps near you.</p>
+            <h3>Reading the map</h3>
+            <p>Coloured lines show what already exists. Use them to spot the gaps — the roads where nothing has been built yet.</p>
 
             <h3>Infrastructure types</h3>
-            <p><strong>Protected lane</strong> — physically separated from traffic by a barrier or curb.</p>
+            <p><strong>Protected lane</strong> — separated from traffic by a physical barrier. The safest option.</p>
             <p><strong>Painted bike lane</strong> — a dedicated lane marked on the road surface.</p>
-            <p><strong>Local street bikeway</strong> — a calmed residential street prioritising cyclists.</p>
-            <p><strong>Multi-use path</strong> — a shared path for cyclists and pedestrians.</p>
+            <p><strong>Local street bikeway</strong> — a calmed residential street where cyclists have priority.</p>
+            <p><strong>Multi-use path</strong> — a shared path for cyclists and pedestrians, usually off-road.</p>
 
-            <h3>Data sources</h3>
-            <p>Bike network: <a href="https://donnees.montreal.ca" target="_blank">Données Montréal</a> (CBICS dataset)</p>
-            <p>Borough contacts updated periodically from public sources.</p>
+            <h3>Data</h3>
+            <p>Bike network from <a href="https://donnees.montreal.ca" target="_blank">Données Montréal</a> (CBICS). Borough contacts updated periodically.</p>
         </div>
     </div>
     <div id="side-panel-overlay"></div>
@@ -52,6 +53,7 @@
     <div id="map-container">
         <div id="map"></div>
         <div id="map-loading"><span>Loading map data…</span></div>
+        <div id="map-overlay"></div>
 
         <div id="map-hint">Click any road to get started</div>
 
@@ -79,13 +81,21 @@
                 </div>
 
                 <div id="infra-selector">
-                    <label for="infra-type-select">Infrastructure type</label>
-                    <select id="infra-type-select">
-                        <option value="a protected lane">Protected lane</option>
-                        <option value="a painted bike lane">Painted bike lane</option>
-                        <option value="a local street bikeway">Local street bikeway</option>
-                        <option value="a multi-use path">Multi-use path</option>
-                    </select>
+                    <div class="infra-row">
+                        <p class="section-label">On this road</p>
+                        <p id="existing-infra-display">
+                            <span id="existing-infra-dot" class="infra-dot"></span><span id="existing-infra-value">—</span>
+                        </p>
+                    </div>
+                    <div class="infra-row">
+                        <label for="infra-type-select" class="section-label">You want</label>
+                        <select id="infra-type-select">
+                            <option value="a protected lane">Protected lane</option>
+                            <option value="a painted bike lane">Painted bike lane</option>
+                            <option value="a local street bikeway">Local street bikeway</option>
+                            <option value="a multi-use path">Multi-use path</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div id="email-template">
