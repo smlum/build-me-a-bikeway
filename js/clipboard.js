@@ -2,30 +2,29 @@ document.addEventListener("DOMContentLoaded", function () {
     const copyBtn = document.getElementById("copy-btn");
     copyBtn.addEventListener("click", function () {
         const emailContent = document.getElementById("email-template").innerText;
+        const originalText = copyBtn.textContent;
+
+        const showFeedback = (success) => {
+            copyBtn.textContent = success ? "Copied!" : "Copy failed — try again";
+            setTimeout(() => { copyBtn.textContent = originalText; }, 2000);
+        };
+
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(emailContent)
-                .then(() => {
-                    alert("Email content copied to clipboard!");
-                })
-                .catch((err) => {
-                    console.error("Failed to copy email content: ", err);
-                });
+                .then(() => showFeedback(true))
+                .catch(() => showFeedback(false));
         } else {
-            // Fallback using a temporary textarea element
             const textArea = document.createElement("textarea");
             textArea.value = emailContent;
-            // Prevent scrolling to bottom
-            textArea.style.top = "0";
-            textArea.style.left = "0";
-            textArea.style.position = "fixed";
+            textArea.style.cssText = "position:fixed;top:0;left:0;opacity:0";
             document.body.appendChild(textArea);
             textArea.focus();
             textArea.select();
             try {
-                const successful = document.execCommand('copy');
-                console.log("Email content copied to clipboard!");
+                document.execCommand('copy');
+                showFeedback(true);
             } catch (err) {
-                console.error("Fallback: Unable to copy", err);
+                showFeedback(false);
             }
             document.body.removeChild(textArea);
         }

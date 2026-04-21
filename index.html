@@ -14,7 +14,6 @@
     <!-- Navbar -->
     <div class="navbar">
         <h1>🚴 Build me a Bikeway</h1>
-        <button id="auth-btn" class="auth-btn">Log In / Register</button>
     </div>
 
     <div id="container">
@@ -128,7 +127,6 @@
     <!-- Map -->
     <div id="map-container">
         <div id="map"></div>
-        <div id="info-box" class="info-box">Click on a road to see its ID</div>
         <!-- Legend Container -->
     </div>
 
@@ -138,10 +136,9 @@
 
     <script src="https://unpkg.com/maplibre-gl@^3.0.0/dist/maplibre-gl.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
-    <script src="node_modules/axios/dist/axios.min.js"></script>
-    <script src="index.js"></script> <!-- For user profiles -->
-    <script src="bike-network.js"></script> <!-- Separate script for bike network -->
-    <script src="find-region.js"></script>
-    <script src="copy_to_clipboard.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/bike-network.js"></script>
+    <script src="js/find-region.js"></script>
+    <script src="js/clipboard.js"></script>
 </body>
 </html>

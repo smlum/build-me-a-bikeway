@@ -1,36 +1,35 @@
 # Build me a Bikeway
 A web app to help Montrealers request new cycling infrastructure.
 
-The app lets users click on a map to select a segment of the road network that they'd like to request new cycling infrastructure on. It then connects them with contact details for their local official and helps to construct an email template for requesting the new infrastructure.
+Click a road on the map to get your local official's contact info and generate a ready-to-send email asking for better bike infrastructure.
+
+## Running locally
+
+Requires [Node.js](https://nodejs.org).
+
+```bash
+npm install
+npm start
+```
+
+Then open [http://localhost:8080](http://localhost:8080) in your browser.
+
+> `npm start` uses `http-server` to serve the files statically. You need this because the app loads local GeoJSON files via `fetch`, which browsers block when opening `index.html` directly from the filesystem.
 
 ## Features
 
-- **Interactive Map:** Click on a road segment to display its name and the corresponding administrative boundary.
-- **Local Official Lookup:** Uses a GeoJSON file for administrative boundaries and a JSON file (converted from CSV) for contact information.
-- **Pre-generated Email Template:** Provides a draft email that users can customize. The template includes dynamic placeholders for the road name, admin boundary, and desired bike infrastructure type.
-- **Copy-to-Clipboard Functionality:** A button copies the email text.
-- **Basic User Accounts:** Secure user accounts developed using an SQL database with ability to retreive forgotten password.
+- **Interactive map** — click any road to identify it and its arrondissement
+- **Local official lookup** — surfaces the relevant borough mayor's name, email, and phone
+- **Email template** — pre-filled with road name, borough, and official's name, ready to copy
+- **Existing bike network overlay** — shows Montreal's current cycling infrastructure by type
 
-## Technical Roadmap
+## Roadmap
 
-- Create a form for users to fill out requests 
-  - Questions like: what type of infrastructure would you like? why is it necessary? 
-- Develop functionality to view crowd sourced collective infrastructure requests (votes) 
-   - e.g., see how many users have voted for improved infrastructure on a particular segment 
-   - Requires some sort of user validation to ensure the same user can't make multiple votes for the same 
-- Continue to develop user accounts 
-   - Interface to view request history
-   - Interface to edit account (name)
- - Add FAQ/ definitions for cycle infrastructure 
- - Create French language version of site 
- - Create mobile version of site 
-
-## Non-Technical Roadmap
-- Develop brand 
-- Stickers / posters users can physically put on roads to show they have requested a bikeway 
-- Set up contact (create email) 
-
-## Setup
+- Infrastructure type dropdown in the email template
+- French language support
+- Mobile layout
+- Crowdsourced request voting (how many people want a bikeway on a given segment)
+- User accounts and request history
 
 ## Design inspiration
 
