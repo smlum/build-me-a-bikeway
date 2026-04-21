@@ -30,9 +30,9 @@
             <h3>How it works</h3>
             <ol>
                 <li>Click any road on the map</li>
-                <li>We find your borough's elected representative</li>
+                <li>Find your borough's elected representative</li>
                 <li>Choose the infrastructure you'd like to see</li>
-                <li>Copy the draft email and send it</li>
+                <li>Copy/ edit the draft email and send it</li>
             </ol>
 
             <h3>What else can I do?</h3>
@@ -53,7 +53,18 @@
             <p><strong>Multi-use path</strong> — a shared path for cyclists and pedestrians, usually off-road.</p>
 
             <h3>Data</h3>
-            <p>Bike network from <a href="https://donnees.montreal.ca" target="_blank">Données Montréal</a> (CBICS). Borough contacts updated periodically.</p>
+            <p>Bike network from <a href="https://donnees.montreal.ca" target="_blank">Données Montréal</a> using the <a href="https://www.canada.ca/en/public-health/services/reports-publications/health-promotion-chronic-disease-prevention-canada-research-policy-practice/vol-40-no-9-2020/canbics-classification-system-naming-convention-cycling-infrastructure.html" target="_blank">CanBICS</a> classification system. Borough contacts were updated in 2025 and likely need updated, please check before sending!</p>
+
+            <h3>Roadmap</h3>
+            <p>This is a small personal project very much in development.</p>
+            <p>Some ideas for next steps:</p>
+            <ul>
+                <li>French language support</li>
+                <li>Update contact data for 2026</li>
+                <li>Add more data: collisions, cycle counts, etc.</li>
+                <li>User accounts and request history</li>
+            </ul>
+
         </div>
     </div>
     <div id="side-panel-overlay"></div>
@@ -96,7 +107,7 @@
                         </p>
                     </div>
                     <div class="infra-row">
-                        <label for="infra-type-select" class="section-label">You want</label>
+                        <label for="infra-type-select" class="section-label">I want</label>
                         <select id="infra-type-select">
                             <option value="a protected lane">Protected lane</option>
                             <option value="a painted bike lane">Painted bike lane</option>
@@ -111,7 +122,11 @@
                     <p><strong>Subject:</strong> <span id="subject-content">Bikeway Request</span></p>
                     <p>Dear <span id="contact-greeting">[Official Name]</span>,</p>
                     <p>I'd like to request <strong><span id="infrastructure-type">a protected lane</span></strong> on <strong><span id="road-name">[Road Name]</span></strong> in <strong><span id="admin-boundary">[Borough]</span></strong>.</p>
-                    <p>This would make cycling in our neighbourhood safer and more accessible for everyone.</p>
+                    <p>[Insert your compelling reasons here!]</p>
+                    <p>- I personally use this road every day to get to work and I feel endangered by close proximity to fast moving cars.</p>
+                    <p>- This intersection has seen a significant increase in bicycle traffic over the past year.</p>
+                    <p>- As a driver and I'd like better seperation between motor vehicles and cyclists.</p>
+                    <p>- This would make cycling in our neighbourhood safer and more accessible for everyone.</p>
                     <p>Thank you for your time and consideration.</p>
                     <p>Sincerely,</p>
                 </div>
