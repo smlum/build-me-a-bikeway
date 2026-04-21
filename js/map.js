@@ -68,38 +68,58 @@ function findClosestSegment(feature, clickLngLat) {
 }
 
 function findRoadName(road, e) {
-    // Road vector tiles carry the name directly — works at any zoom level
-    if (road.properties && road.properties.name) {
-        return road.properties.name;
+    const refPt = turf.point([e.lngLat.lng, e.lngLat.lat]);
+
+    // Road geometry features (transportation layer) carry no name properties —
+    // names live in the separate transportation_name source layer.
+    // querySourceFeatures reads loaded tile data regardless of zoom or label visibility.
+    try {
+        const style = map.getStyle();
+        const nameDef = style.layers.find(l => nameLayers.includes(l.id));
+
+        if (nameDef) {
+            const candidates = map.querySourceFeatures(nameDef.source, {
+                sourceLayer: nameDef['source-layer']
+            });
+
+            let bestName = null;
+            let minDist = Infinity;
+
+            for (const f of candidates) {
+                const name = f.properties.name_fr || f.properties.name || f.properties.name_en || f.properties.ref;
+                if (!name) continue;
+
+                try {
+                    // nearestPointOnLine gives true perpendicular distance,
+                    // preventing parallel streets from matching
+                    const nearest = turf.nearestPointOnLine(f, refPt);
+                    const dist = nearest.properties.dist;
+                    if (dist < minDist) {
+                        minDist = dist;
+                        bestName = name;
+                    }
+                } catch {}
+            }
+
+            if (bestName && minDist < 0.05) return bestName; // within 50m
+        }
+    } catch (err) {
+        console.error("Error querying source features for road name:", err);
     }
 
+    // Fallback: rendered label query (works when labels are visible)
     try {
         const nameFeatures = map.queryRenderedFeatures(
             [[e.point.x - 10, e.point.y - 10], [e.point.x + 10, e.point.y + 10]],
             { layers: nameLayers }
         );
-
         if (nameFeatures.length > 0) {
-            return nameFeatures[0].properties.name || "Unknown Road";
-        }
-
-        const firstCoord = road.geometry.coordinates[0];
-        const lastCoord = road.geometry.coordinates[road.geometry.coordinates.length - 1];
-
-        if (!firstCoord || !lastCoord) return "Unknown Road";
-
-        const midpoint = map.project([
-            (firstCoord[0] + lastCoord[0]) / 2,
-            (firstCoord[1] + lastCoord[1]) / 2
-        ]);
-
-        const midpointNameFeatures = map.queryRenderedFeatures(midpoint, { layers: nameLayers });
-        if (midpointNameFeatures.length > 0) {
-            return midpointNameFeatures[0].properties.name || "Unknown Road";
+            const n = nameFeatures[0].properties;
+            return n.name_fr || n.name || n.name_en || "Unnamed road";
         }
     } catch (err) {
         console.error("Error finding road name:", err);
     }
 
-    return "Unknown Road";
+    return "Unnamed road";
 }
