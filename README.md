@@ -18,10 +18,10 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Features
 
-- **Interactive map** — click any road to identify it and its arrondissement
-- **Local official lookup** — surfaces the relevant borough mayor's name, email, and phone
-- **Email template** — pre-filled with road name, borough, and official's name, ready to copy
-- **Existing bike network overlay** — shows Montreal's current cycling infrastructure by type
+- Interactive map — click any road to identify it and its arrondissement
+- Local official lookup — surfaces the relevant borough mayor's name, email, and phone
+- Email template — pre-filled with road name, borough, and official's name, ready to copy
+- Existing bike network overlay — shows Montreal's current cycling infrastructure by type
 
 ## Roadmap
 
@@ -35,4 +35,11 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 - [Montreal bike network map](https://services.montreal.ca/en/maps/bike-paths)
 - [Hoodmaps](https://hoodmaps.com/new-york-city-neighborhood-map)
+
+## Data sources
+
+- [Montreal road network GeoJSON](https://donnees.montreal.ca/ville-de-montreal/voirie/reseau-routier)
+- [Montreal boroughs GeoJSON](https://donnees.montreal.ca/ville-de-montreal/administration/arrondissements)
+- [Montreal borough mayors](https://en.wikipedia.org/wiki/List_of_mayors_of_Montreal)
+
 

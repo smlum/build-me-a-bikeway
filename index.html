@@ -7,131 +7,101 @@
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@^3.0.0/dist/maplibre-gl.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%221em%22 font-size=%2218%22>🚴</text></svg>">
-
 </head>
 <body>
-    
-    <!-- Navbar -->
+
     <div class="navbar">
-        <h1>🚴 Build me a Bikeway</h1>
+        <h1>Build me a Bikeway</h1>
+        <button id="menu-btn" aria-label="Menu">&#9776;</button>
     </div>
 
-    <div id="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-        <p>A tool to request better bike infrastructure in your area. 🚴</p>
-        <p>Zoom and click a road on the map to retireve your local official’s contact information, and send an email using our template.</p>
-
-        <!-- Contact Info: Hidden by default -->
-        
-        <div id="contact-info" style="display:none;">
-            <hr>
-            <h3>Contact info</h3>
-            <p>
-            Local mayor: 
-            <a href="#" id="contact-link" target="_blank">[Official Name]</a>
-            </p>
-            <p>
-            Email: 
-            <a href="#" id="contact-email-link">[Email]</a>
-            </p>
-            <p>
-            Phone: 
-            <a href="#" id="contact-phone-link">[Phone]</a>
-            </p>
+    <!-- Right-side about panel -->
+    <div id="side-panel">
+        <div class="side-panel-header">
+            <h2>About</h2>
+            <button id="side-panel-close" aria-label="Close">&times;</button>
         </div>
+        <div class="side-panel-body">
+            <h3>What is this?</h3>
+            <p>Build me a Bikeway helps Montrealers request new cycling infrastructure from their local elected officials — in two clicks.</p>
 
-        <!-- Email Template -->
-        <div id="email-template">
-            <hr>
-            <!-- New Copy Button -->
-            <button id="copy-btn">Copy Email to Clipboard</button>
+            <h3>How it works</h3>
+            <ol>
+                <li>Click any road on the map</li>
+                <li>See your borough's elected representative</li>
+                <li>Choose an infrastructure type and copy the draft email</li>
+                <li>Send it directly to your official</li>
+            </ol>
 
-            
-            <p id="email-subject">Subject: <span id="subject-content">New Bikeway Request</span></p>
-            <p>Dear <span id="contact-greeting">[Official Name]</span>,</p>
-            <p>
-            I'm writing to bring your attention to the road segment 
-            <strong><span id="road-name">[Road Name]</span>located in 
-            <span id="admin-boundary">[Admin Boundary]</span></strong>.
-            </p>
-            <p>
-            Adding a 
-            <strong><span id="infrastructure-type">[Insert desired bike infrastructure type]</span></strong> on this road, would:
-            </p>
-            <ul>
-            <li>Save me time on my daily commute</li>
-            <li>Make cycling here safer</li>
-            <li><span id="custom-reasons">[Add your reasons!]</span></li>
-            </ul>
-            <p>Thank you for your time and consideration.</p>
-            <p>Sincerely,</p>
-        </div>
+            <h3>The bike network</h3>
+            <p>The coloured lines show Montreal's existing cycling infrastructure, from protected lanes to shared roads. Use it to spot gaps near you.</p>
+
+            <h3>Infrastructure types</h3>
+            <p><strong>Protected lane</strong> — physically separated from traffic by a barrier or curb.</p>
+            <p><strong>Painted bike lane</strong> — a dedicated lane marked on the road surface.</p>
+            <p><strong>Local street bikeway</strong> — a calmed residential street prioritising cyclists.</p>
+            <p><strong>Multi-use path</strong> — a shared path for cyclists and pedestrians.</p>
+
+            <h3>Data sources</h3>
+            <p>Bike network: <a href="https://donnees.montreal.ca" target="_blank">Données Montréal</a> (CBICS dataset)</p>
+            <p>Borough contacts updated periodically from public sources.</p>
         </div>
     </div>
+    <div id="side-panel-overlay"></div>
 
-    <div id="auth-modal" class="modal-overlay" style="display:none;">
-    <div class="modal-content">
-        <span class="close-btn">&times;</span>
-
-        <div id="logged-out-view">
-    <hr>
-    <h3>Register User</h3>
-    <form id="registerForm">
-        <label for="registerUsername">Username:</label>
-        <input type="text" id="registerUsername" required><br><br>
-        <label for="registerEmail">Email:</label>
-        <input type="email" id="registerEmail" required><br><br>
-        <label for="registerPassword">Password:</label>
-        <input type="password" id="registerPassword" required><br><br>
-        <button type="submit">Register</button>
-    </form>
-
-    <hr>
-    <h3>Log In</h3>
-    <form id="loginForm">
-        <label for="loginUsername">Username:</label>
-        <input type="text" id="loginUsername" required><br><br>
-        <label for="loginPassword">Password:</label>
-        <input type="password" id="loginPassword" required><br><br>
-        <button type="submit">Log In</button>
-    </form>
-
-    <a href="#" id="forgotPasswordLink">Forgot Password?</a>
-    <br><br>
-
-    <div id="forgotPasswordView" style="display:none;">
-        <hr>
-        <h3>Forgot Password</h3>
-        <form id="forgotPasswordForm">
-            <label for="forgotEmail">Email:</label>
-            <input type="email" id="forgotEmail" required><br><br>
-            <button type="submit">Send Reset Link</button>
-            <br>
-            <a href="#" id="backToLoginLink">Back to Log In</a>
-        </form>
-    </div>
-</div>
-
-        <div id="logged-in-view" style="display:none;">
-            <p>Welcome, <strong id="current-username">User!</strong></p>
-            <hr>
-            <button id="protectedButton">Access Profile</button>
-            <br><br>
-            <button id="logoutButton">Log Out</button>
-        </div>
-
-    </div>
-</div>
-
-    <!-- Map -->
     <div id="map-container">
         <div id="map"></div>
-        <!-- Legend Container -->
-    </div>
+        <div id="map-loading"><span>Loading map data…</span></div>
 
-    <div class="legend" id="legend">
-        <h4>Bike Lane Types</h4>
+        <div id="map-hint">Click any road to get started</div>
+
+        <div class="legend" id="legend">
+            <h4>Bike Lane Types</h4>
+        </div>
+
+        <!-- Bottom sheet — revealed on road click -->
+        <div id="bottom-sheet">
+            <div class="sheet-handle"></div>
+            <div class="sheet-header">
+                <div class="sheet-title">
+                    <span id="sheet-road-name"></span>
+                    <span id="sheet-borough"></span>
+                </div>
+                <button id="sheet-close" aria-label="Close">&times;</button>
+            </div>
+            <div class="sheet-body">
+
+                <div id="contact-info">
+                    <p class="section-label">Your local representative</p>
+                    <p><a href="#" id="contact-link" target="_blank"></a></p>
+                    <p><a href="#" id="contact-email-link"></a></p>
+                    <p><a href="#" id="contact-phone-link"></a></p>
+                </div>
+
+                <div id="infra-selector">
+                    <label for="infra-type-select">Infrastructure type</label>
+                    <select id="infra-type-select">
+                        <option value="a protected lane">Protected lane</option>
+                        <option value="a painted bike lane">Painted bike lane</option>
+                        <option value="a local street bikeway">Local street bikeway</option>
+                        <option value="a multi-use path">Multi-use path</option>
+                    </select>
+                </div>
+
+                <div id="email-template">
+                    <p class="section-label">Email draft</p>
+                    <p><strong>Subject:</strong> <span id="subject-content">Bikeway Request</span></p>
+                    <p>Dear <span id="contact-greeting">[Official Name]</span>,</p>
+                    <p>I'd like to request <strong><span id="infrastructure-type">a protected lane</span></strong> on <strong><span id="road-name">[Road Name]</span></strong> in <strong><span id="admin-boundary">[Borough]</span></strong>.</p>
+                    <p>This would make cycling in our neighbourhood safer and more accessible for everyone.</p>
+                    <p>Thank you for your time and consideration.</p>
+                    <p>Sincerely,</p>
+                </div>
+
+                <button id="copy-btn">Copy Email to Clipboard</button>
+
+            </div>
+        </div>
     </div>
 
     <script src="https://unpkg.com/maplibre-gl@^3.0.0/dist/maplibre-gl.js"></script>
@@ -140,5 +110,6 @@
     <script src="js/bike-network.js"></script>
     <script src="js/find-region.js"></script>
     <script src="js/clipboard.js"></script>
+    <script src="js/panel.js"></script>
 </body>
 </html>
