@@ -25,7 +25,6 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Roadmap
 
-- Infrastructure type dropdown in the email template
 - French language support
 - Mobile layout
 - Crowdsourced request voting (how many people want a bikeway on a given segment)
