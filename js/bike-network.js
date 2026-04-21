@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             data: bikeNetworkURL
         });
 
+        // Insert below the first symbol (text label) layer so labels render on top
+        const firstLabelLayer = map.getStyle().layers.find(l => l.type === 'symbol');
+
         map.addLayer({
             id: "bike-network-layer",
             type: "line",
@@ -34,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 ],
                 "line-width": 2
             }
-        });
+        }, firstLabelLayer?.id);
 
         const legend = document.getElementById("legend");
 
